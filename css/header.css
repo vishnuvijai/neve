@@ -1,20 +1,26 @@
 /* ----- Masthead Background ----- */
 
 header.masthead{
-    background-image: url("../img/Background576Hero.png");
     width: 100%;
-    height: 0;
-    padding-top: 55.6%;
+    height: 15rem;
     background-size: 100%;
     background-position: top center;
     background-repeat: no-repeat;
+    background-color:red;
 }   
-
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) { 
+    header.masthead{
+        background-image: url("../img/Background576Hero.png");
+        height: 20rem;
+    }   
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     header.masthead{
         background-image: url("../img/Background768Hero.png");
+        height: 25rem;
     }   
 }
 
@@ -22,6 +28,7 @@ header.masthead{
 @media (min-width: 992px) { 
     header.masthead{
         background-image: url("../img/Background992Hero.png");
+        height: 35rem;
     }   
 }
 
@@ -29,6 +36,7 @@ header.masthead{
 @media (min-width: 1200px) { 
     header.masthead{
         background-image: url("../img/Background Hero.png");
+        height: 40rem;
         
     }   
 
