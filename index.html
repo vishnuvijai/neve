@@ -7,9 +7,9 @@
 <!-- BOOTSTRAP -->
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 <!-- FONT AWESOME -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous"> -->
 <!-- STYLE -->
 <link rel="stylesheet" href="style.css">
 <!-- TITLE -->
@@ -17,8 +17,23 @@
 </head>
 <body>
 <header class="masthead">
-    <div class="container">
-        <h1>Welcome</h1>
+    <div class="masthead-brand container">
+        <img src="./img/LOGO NEVE.svg" alt="LOGO" style="width:8.5em;" class="mt-5">
+    </div>
+
+    <div class="masthead-content container  d-flex flex-column align-content-end justify-content-end  border border-primary ">
+        <form action="post.php" id="email_form" method="POST"></form>
+
+        <div class="row  text-light flex-column align-content-end justify-content-end border border-light">
+            <div class="masthead-heading-text col-sm-2  col-md-2 border border-danger "><h3>Heading</h3></div>
+            <div class="masthead-content-text col-sm-3  col-md-5  mb-4 text-justify border border-danger"><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> </div>
+        </div>
+
+        <div class="row align-content-end  justify-content-end ">
+            <div class="col-md-6 border border-danger "><input type="email" name="mail" class="form-control rounded-pill" form="email_form" placeholder="email" size="50"></div>
+            <div class="col-md-2 border border-danger "><input type="submit" value="Get Strated" class="btn btn-outline-light rounded-pill" form="email_form"></div>
+            <div class="col-md-2  border border-danger"><button class="btn btn-outline-light rounded-pill" >Message</button></div>
+        </div>
     </div>
 </header>
 rama

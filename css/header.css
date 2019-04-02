@@ -6,7 +6,6 @@ header.masthead{
     background-size: 100%;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color:red;
 }   
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) { 
@@ -42,3 +41,19 @@ header.masthead{
 
 
 }
+
+
+header.masthead > div.masthead-content.container{
+height: 70%;
+}
+
+/* html.gr__ body header.masthead div.masthead-content.container.position-relative.d-flex.flex-column.align-content-end.justify-content-end.border.border-primary div.row.position-absolute.flex-column.align-content-end.justify-content-end.border.border-light div.masthead-content-text.col-sm-3.col-md-5.mb-4.text-justify.border.border-danger p{
+    color:white !important;
+    background: red !important;
+
+}
+
+/* header.masthead > div.masthead-content.container  .row:first-child > .masthead-content-text p{
+} */ */
+
+
