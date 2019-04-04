@@ -1,7 +1,11 @@
-section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .img-container{
-    background-color: aqua;
+/* APPLICATION DEVELOPMENT SECTION */
+section.app-dev > div.app-dev-container > div.row  .app-dev-cols{
+  overflow: hidden;
 }
-/* section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .img-container > img{
-    float: left;
-    width: 100%;
+/* section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .img-container{
 } */
+section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .img-container > img{
+  position: relative;
+  width: 120%;
+  right: 25%;
+}
