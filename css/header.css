@@ -1,59 +1,135 @@
-/* ----- Masthead Background ----- */
+/* ----- Masthead Background And Height----- */
 
 header.masthead{
-    width: 100%;
-    height: 15rem;
-    background-size: 100%;
-    background-position: top center;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 8rem;
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  /* background-color: aqua; */
 }   
-/* // Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) { 
-    header.masthead{
-        background-image: url("../img/Background576Hero.png");
-        height: 20rem;
-    }   
+  header.masthead{
+      background-image: url("../img/Background576Hero.png");
+      height: 20rem;
+  }   
 }
-
-/* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    header.masthead{
-        background-image: url("../img/Background768Hero.png");
-        height: 25rem;
-    }   
+  header.masthead{
+      background-image: url("../img/Background768Hero.png");
+      height: 27rem;
+  }   
 }
-
-/* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    header.masthead{
-        background-image: url("../img/Background992Hero.png");
-        height: 35rem;
-    }   
+  header.masthead{
+      background-image: url("../img/Background992Hero.png");
+      height: 35rem;
+  }   
 }
-
-/* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    header.masthead{
-        background-image: url("../img/Background Hero.png");
-        height: 40rem;
+  header.masthead{
+      background-image: url("../img/Background Hero.png");
+      height: 40rem;
         
-    }   
-
-
+  }   
 }
 
+
+
+
+
+/* Header Masthead Container Height*/
 
 header.masthead > div.masthead-content.container{
-height: 70%;
+  height: 50%;
 }
 
-/* html.gr__ body header.masthead div.masthead-content.container.position-relative.d-flex.flex-column.align-content-end.justify-content-end.border.border-primary div.row.position-absolute.flex-column.align-content-end.justify-content-end.border.border-light div.masthead-content-text.col-sm-3.col-md-5.mb-4.text-justify.border.border-danger p{
-    color:white !important;
-    background: red !important;
+@media (min-width: 576px) {  
+  header.masthead > div.masthead-content.container{
+    height: 50%;
+  }
 
 }
 
-/* header.masthead > div.masthead-content.container  .row:first-child > .masthead-content-text p{
-} */ */
+@media (min-width: 768px) {  
+  header.masthead > div.masthead-content.container{
+    height: 60%;
+  }
+
+}
+
+@media (min-width: 992px) {  
+  header.masthead > div.masthead-content.container{
+    height: 65%;
+  }
+
+}
+
+@media (min-width: 1200px) { 
+  header.masthead > div.masthead-content.container{
+    height: 70%;
+  }
+}
 
 
+/* Header Masthead Content Heading */
+
+header.masthead > div.masthead-content.container  .row:first-child > .masthead-heading-text h3{
+  font-size: .8rem;    
+}
+@media (min-width: 576px) { 
+  /* .. */
+}
+@media (min-width: 768px) { 
+  header.masthead > div.masthead-content.container  .row:first-child > .masthead-heading-text h3{
+      font-size: 1.25rem;    
+  }
+}
+@media (min-width: 992px) { 
+  header.masthead > div.masthead-content.container  .row:first-child > .masthead-heading-text h3{
+      font-size: 1.50rem;    
+  }
+}
+@media (min-width: 1200px) { 
+  header.masthead > div.masthead-content.container  .row:first-child > .masthead-heading-text h3{
+      font-size: 1.75rem;    
+  }
+}
+
+
+/* Header Masthead Content Text */
+
+header.masthead > div.masthead-content.container  .row:first-child > .masthead-content-text p{
+  font-size: .4rem;    
+}
+@media (min-width: 576px) { 
+/* .. */
+}
+@media (min-width: 768px) { 
+    header.masthead > div.masthead-content.container  .row:first-child > .masthead-content-text p{
+      font-size: .6rem;    
+    }
+}
+@media (min-width: 992px) { 
+    header.masthead > div.masthead-content.container  .row:first-child > .masthead-content-text p{
+      font-size: .8rem;    
+    }
+}
+@media (min-width: 1200px) { 
+    header.masthead > div.masthead-content.container  .row:first-child > .masthead-content-text p{
+      font-size: 1rem;    
+    }
+
+}
+/* Header Masthead Content BUTTONS */
+@media (min-width: 576px) and (max-width:768px) { 
+
+header.masthead > div.masthead-content.container  .row:last-child > .input [type = "submit"]{
+  display: block;
+  margin: .5rem auto;
+}
+header.masthead > div.masthead-content.container  .row:last-child >  .input button{
+  display: block ;
+  margin: auto ;
+}
+}
