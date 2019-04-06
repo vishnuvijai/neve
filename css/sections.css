@@ -1,11 +1,97 @@
 /* APPLICATION DEVELOPMENT SECTION */
+
+/* Application Development Image */
 section.app-dev > div.app-dev-container > div.row  .app-dev-cols{
-  overflow: hidden;
+  overflow: visible;
 }
 /* section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .img-container{
 } */
 section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .img-container > img{
   position: relative;
-  width: 120%;
-  right: 25%;
+  width: 85%;
+  right: 0;
+}
+
+@media (min-width: 768px) { 
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols{
+    overflow: hidden;
+  }
+  /* section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .img-container{
+  } */
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .img-container > img{
+    position: relative;
+    width: 120%;
+    right: 25%;
+  }
+  
+}
+
+
+/* Application Development Paragraph */
+section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
+  font-size: 22px;
+  width:70%;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+@media (min-width: 576px) { 
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
+    width:80%;
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 768px) { 
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
+    width:80%;
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 992px) { 
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
+    width:80%;
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
+    width:80%;
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+}
+
+/* Application Development Headding */
+section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
+  font-size: 1.8rem;
+}
+@media (min-width: 576px) { 
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
+    font-size: 1.9rem;
+  }
+  
+}
+
+@media (min-width: 768px) { 
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) { 
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1200px) { 
+  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
+    font-size: 2.4rem;
+  }
 }

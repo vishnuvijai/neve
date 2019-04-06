@@ -20,6 +20,26 @@ margin-top: 12rem;
 margin-top: 24rem;
 }
 
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  .mt-md-7{
+    margin-top: 12rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
 .mb-6{
 margin-bottom: 6rem;
 }
