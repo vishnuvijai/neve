@@ -22,20 +22,43 @@ margin-top: 24rem;
 
 @media (min-width: 576px) {
 
+    .mt-sm-6{
+    margin-top: 6rem !important;
+    }
+    .mt-sm-7{
+    margin-top: 12rem !important;
+    }
+    .mt-sm-8{
+    margin-top: 24rem !important;
+    }
+    
 }
 
 @media (min-width: 768px) {
+  .mt-md-6{
+    margin-top: 6rem !important;
+  }
   .mt-md-7{
     margin-top: 12rem !important;
   }
-}
+  .mt-md-8{
+    margin-top: 24rem !important;
+  }
 
 @media (min-width: 992px) {
 
 }
 
 @media (min-width: 1200px) {
-
+  .mt-lg-6{
+    margin-top: 6rem !important;
+  }
+  .mt-lg-7{
+    margin-top: 12rem !important;
+  }
+  .mt-lg-8{
+    margin-top: 24rem !important;
+  }
 }
 
 
