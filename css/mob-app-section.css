@@ -1,0 +1,90 @@
+/* MOBILE APP DEVELOPMENT SECTION */
+
+/* Mobile App Development Image */
+
+section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .img-container > img{
+    width: 20%;
+  }
+  
+  
+  @media (min-width: 768px) {
+    
+    section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .img-container > img{
+      width: 50%;
+    }
+  }
+  
+  
+  /* Mobile App Development Paragraph */
+  section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > p{
+    font-size: 22px;
+    width:70%;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: justify;
+    word-wrap: break-word;
+    word-break:break-all;
+  }
+  
+  @media (min-width: 576px) { 
+    section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > p{
+      width:80%;
+      font-size: 1.1rem;
+      line-height: 1.2;
+    }
+  }
+  
+  @media (min-width: 768px) { 
+    section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > p{
+      width:80%;
+      font-size: 1.1rem;
+      line-height: 1.2;
+    }
+  }
+  
+  @media (min-width: 992px) { 
+    section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > p{
+      width:80%;
+      font-size: 1.1rem;
+      line-height: 1.2;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > p{
+      width:80%;
+      font-size: 1.3rem;
+      line-height: 1.2;
+    }
+  }
+  
+  /* Mobile App Development Headding */
+  section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > h1{
+    font-size: 1.8rem;
+  }
+  @media (min-width: 576px) { 
+    section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > h1{
+      font-size: 1.9rem;
+    }
+    
+  }
+  
+  @media (min-width: 768px) { 
+    section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > h1{
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 992px) { 
+    section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > h1{
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (min-width: 1200px) { 
+    section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .mob-app-text > h1{
+      font-size: 2.4rem;
+    }
+  }
+  
+  
