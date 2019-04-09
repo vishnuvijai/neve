@@ -29,11 +29,9 @@ section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .img-containe
 
 /* Application Development Paragraph */
 section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
-  font-size: 22px;
   width:70%;
   font-size: 1rem;
   line-height: 1.2;
-  text-align: justify;
   word-wrap: break-word;
   word-break:break-all;
 }
@@ -42,25 +40,9 @@ section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text
   section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
     width:80%;
     font-size: 1.1rem;
-    line-height: 1.2;
   }
 }
 
-@media (min-width: 768px) { 
-  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
-    width:80%;
-    font-size: 1.1rem;
-    line-height: 1.2;
-  }
-}
-
-@media (min-width: 992px) { 
-  section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
-    width:80%;
-    font-size: 1.1rem;
-    line-height: 1.2;
-  }
-}
 
 @media (min-width: 1200px) {
   section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > p{
@@ -72,30 +54,30 @@ section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text
 
 /* Application Development Headding */
 section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
-  font-size: 1.8rem;
+  font-size: 1.25rem;
 }
 @media (min-width: 576px) { 
   section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
   
 }
 
 @media (min-width: 768px) { 
   section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }
 
 @media (min-width: 992px) { 
   section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 1200px) { 
   section.app-dev > div.app-dev-container > div.row  .app-dev-cols > .app-dev-text > h1{
-    font-size: 2.4rem;
+    font-size: 2.5rem;
   }
 }
 

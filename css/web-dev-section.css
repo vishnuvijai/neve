@@ -96,3 +96,110 @@ section.web-dev{
     }
   }
   
+/* ROW */
+section.web-dev > .web-dev-container > .row{
+position: relative;
+top: 22%;
+}
+@media (min-width: 768px) {
+  section.web-dev > .web-dev-container > .row{
+    position: relative;
+    top: 19%;
+  }
+}
+@media (min-width: 1200px) {
+  section.web-dev > .web-dev-container > .row{
+    position: relative;
+    top: 17.5%;
+  }
+}
+
+
+/* IMAGE */
+section.web-dev > .web-dev-container > .row .web-dev-cols-two  {
+  overflow: hidden;
+}
+section.web-dev > .web-dev-container > .row .web-dev-cols-two > .img-container {
+  position: relative;
+}
+
+section.web-dev > .web-dev-container > .row .web-dev-cols-two > .img-container > img{
+  position: static;
+  width: 50%;
+  max-width: 50%;
+}
+
+@media (min-width: 768px) {
+  section.web-dev > .web-dev-container > .row .web-dev-cols-two > .img-container > img{
+    position: relative;
+    left:10%;
+    width: 175%;
+    max-width: 175%;
+  }
+}
+
+
+
+/* Web Development Heading */
+section.web-dev > .web-dev-container > .row .web-dev-cols-one > .mob-app-text > h1{
+  font-size: 1.25rem;
+  color: black;
+}
+
+@media (min-width: 576px) {
+  section.web-dev > .web-dev-container > .row .web-dev-cols-one > .mob-app-text > h1{
+    font-size: 1.5rem;
+    color:white;
+  }
+}
+
+@media (min-width: 768px) {
+  section.web-dev > .web-dev-container > .row .web-dev-cols-one > .mob-app-text > h1{
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.web-dev > .web-dev-container > .row .web-dev-cols-one > .mob-app-text > h1{
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.web-dev > .web-dev-container > .row .web-dev-cols-one > .mob-app-text > h1{
+    font-size: 2.5rem;
+  }
+}
+
+/* Web Development Paragraphs */
+
+/* Application Development Paragraph */
+section.web-dev > .web-dev-container > .row .web-dev-cols-one > .mob-app-text > p{
+  width:70%;
+  font-size: 1rem;
+  line-height: 1.2;
+  word-wrap: break-word;
+  word-break:break-all;
+  color: black;
+}
+
+@media (min-width: 576px) { 
+  section.web-dev > .web-dev-container > .row .web-dev-cols-one > .mob-app-text > p{
+    width:50%;
+    font-size: 1.1rem;
+    color:white;
+  }
+}
+@media (min-width: 768px) { 
+  section.web-dev > .web-dev-container > .row .web-dev-cols-one > .mob-app-text > p{
+    width:80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.web-dev > .web-dev-container > .row .web-dev-cols-one > .mob-app-text > p{
+    width:80%;
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+}
