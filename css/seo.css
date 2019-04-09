@@ -1,0 +1,74 @@
+/* SEO SECTION */
+
+/* SEO Image */
+
+section.seo > div.seo-container > div.row  .seo-cols{
+height: 30em;
+
+}
+section.seo > div.seo-container > div.row  .seo-cols > .img-container > img{
+width: 40%;
+
+}
+@media (min-width: 768px) {
+
+section.seo > div.seo-container > div.row  .seo-cols > .img-container > img{
+width: 60%;
+
+}
+}
+
+/* SEO Paragraph */
+section.seo > div.seo-container > div.row  .seo-cols > .seo-text > p{
+width:70%;
+font-size: 1rem;
+line-height: 1.2;
+word-wrap: break-word;
+word-break:break-all;
+}
+
+@media (min-width: 576px) { 
+section.seo > div.seo-container > div.row  .seo-cols > .seo-text > p{
+width:80%;
+font-size: 1.1rem;
+}
+}
+@media (min-width: 1200px) {
+section.seo > div.seo-container > div.row  .seo-cols > .seo-text > p{
+font-size: 1.3rem;
+}
+}
+
+/* SEO Headding */
+section.seo > div.seo-container > div.row  .seo-cols > .seo-text > h1{
+font-size: 1.25rem;
+}
+@media (min-width: 576px) { 
+section.seo > div.seo-container > div.row  .seo-cols > .seo-text > h1{
+font-size: 1.5rem;
+}
+
+}
+
+@media (min-width: 768px) { 
+section.seo > div.seo-container > div.row  .seo-cols > .seo-text > h1{
+font-size: 1.75rem;
+}
+}
+
+@media (min-width: 992px) { 
+section.seo > div.seo-container > div.row  .seo-cols > .seo-text > h1{
+font-size: 2rem;
+}
+}
+
+@media (min-width: 1200px) { 
+section.seo > div.seo-container > div.row  .seo-cols > .seo-text > h1{
+font-size: 2.5rem;
+}
+}
+
+
+.bg-lightblue{
+    background-image:linear-gradient(to bottom left,rgb(89,152,229)  0%, rgb(110,173,201) 100%);
+}

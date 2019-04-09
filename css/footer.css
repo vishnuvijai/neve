@@ -1,0 +1,40 @@
+footer.footer{
+    background: rgb(104, 167, 207);
+}
+
+
+footer.footer > .footer-container > .row  .footer-cols > .img-container > img{
+    width: 10rem;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+footer.footer > .footer-container > .row  .footer-cols ul li{
+  color : white;
+  margin: 1rem auto;
+}
+
+
+footer.footer > .footer-container > .row  .footer-cols ul li a:link, 
+footer.footer > .footer-container > .row  .footer-cols ul li a:visited,
+footer.footer > .footer-container > .row  .footer-cols ul li a:hover,
+footer.footer > .footer-container > .row  .footer-cols ul li a:active   
+{
+  color : white;
+  text-decoration: none;
+}
+
