@@ -10,99 +10,87 @@ section.ui-ux-design{
   
   @media (min-width: 576px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---SM-576--.png");
+      background-image: url("../../img/Section-Two-Background---SM-576--.png");
       height:40rem;
     }
   }
   @media (min-width: 620px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---SM-576--.png");
       height:43rem;
     }
   }
   @media (min-width: 670px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---SM-576--.png");
       height:45rem;
     }
   }
   @media (min-width: 716px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---SM-576--.png");
       height:49rem;
     }
   }
   @media (min-width: 768px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---SM-576--.png");
       height:51rem;
     }
   }
   @media (min-width: 804px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---MD-768--.png");
+      background-image: url("../../img/Section-Two-Background---MD-768--.png");
       height:54rem;
     }
   }
   @media (min-width: 846px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---MD-768--.png");
       height:58rem;
     }
   }
   @media (min-width: 910px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---MD-768--.png");
       height:63rem;
     }
   }
   @media (min-width: 992px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---LAP-992--.png");
+      background-image: url("../../img/Section-Two-Background---LAP-992--.png");
       height:66rem;
     }
   }
   @media (min-width: 1042px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---LAP-992--.png");
       height:71rem;
     }
   }
   @media (min-width: 1110px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---LAP-992--.png");
       height:77rem;
     }
   }
   @media (min-width: 1200px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---LG-1200--.png");
+      background-image: url("../../img/Section-Two-Background---LG-1200--.png");
       height:85.39rem;
     }
   }
   @media (min-width: 1350px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---LG-1200--.png");
       height:95.39rem;
     }
   }
   @media (min-width: 1500px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---LG-1200--.png");
       height:110rem;
       
     }
   }
   @media (min-width: 1730px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---LG-1200--.png");
       height:125rem;
       
     }
   }
   @media (min-width: 1900px) {
     section.ui-ux-design{
-      background-image: url("../img/Section-Two-Background---LG-1200--.png");
       height:135rem;
       
     }
