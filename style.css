@@ -1,11 +1,13 @@
-@import "./css/indexcss/header.css";
-@import "./css/indexcss/margin.css";
-@import "./css/indexcss/app-dev-section.css";
-@import "./css/indexcss/ui-ux-section.css";
-@import "./css/indexcss/mob-app-section.css";
-@import "./css/indexcss/web-dev-section.css";
-@import "./css/indexcss/e-com-section.css";
-@import "./css/indexcss/seo.css";
-@import "./css/indexcss/tech-section.css";
-@import "./css/indexcss/map-image-section.css";
-@import "./css/indexcss/footer.css";
+@import "./header.css";
+@import "./margin.css";
+@import "./footer.css";
+/* SERVICES PAGE */
+@import "./css/servicescss/app-dev-section.css";
+@import "./css/servicescss/ui-ux-section.css";
+@import "./css/servicescss/mob-app-section.css";
+@import "./css/servicescss/web-dev-section.css";
+@import "./css/servicescss/e-com-section.css";
+@import "./css/servicescss/seo.css";
+@import "./css/servicescss/tech-section.css";
+@import "./css/servicescss/map-image-section.css";
+
