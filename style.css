@@ -1,6 +1,6 @@
-@import "./header.css";
-@import "./margin.css";
-@import "./footer.css";
+@import "./css/header.css";
+@import "./css/margin.css";
+@import "./css/footer.css";
 /* SERVICES PAGE */
 @import "./css/servicescss/app-dev-section.css";
 @import "./css/servicescss/ui-ux-section.css";
@@ -10,4 +10,5 @@
 @import "./css/servicescss/seo.css";
 @import "./css/servicescss/tech-section.css";
 @import "./css/servicescss/map-image-section.css";
-
+/* INDEX PAGE */
+@import "./css/indexcss/question-boxes-section.css";
