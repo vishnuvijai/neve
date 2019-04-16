@@ -182,7 +182,6 @@ section.customer-support > .customer-support-container > .row:last-child {
     top:4%;
   }
 }
-
 @media (min-width: 992px) {
   section.customer-support > .customer-support-container > .row:last-child{
     position: relative;

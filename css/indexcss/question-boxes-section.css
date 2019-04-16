@@ -8,6 +8,42 @@ background-image: linear-gradient(to top left, #6EC99F 0%, #BF4099 100%);
 section.question-boxes > .question-boxes-container > .row > .cols-three{
 background-image: linear-gradient(to bottom left, #6EA2C9 0%, #9540BF 100%);
 }
+/* LINKS */
+section.question-boxes > .question-boxes-container > .row > a.cols-one:link    > h3,
+section.question-boxes > .question-boxes-container > .row > a.cols-one:visited > h3,
+section.question-boxes > .question-boxes-container > .row > a.cols-one:hover   > h3,
+section.question-boxes > .question-boxes-container > .row > a.cols-one:active  > h3,
+
+section.question-boxes > .question-boxes-container > .row > a.cols-two:link    > h3,
+section.question-boxes > .question-boxes-container > .row > a.cols-two:visited > h3,
+section.question-boxes > .question-boxes-container > .row > a.cols-two:hover   > h3,
+section.question-boxes > .question-boxes-container > .row > a.cols-two:active  > h3,
+
+section.question-boxes > .question-boxes-container > .row > a.cols-three:link     > h3,
+section.question-boxes > .question-boxes-container > .row > a.cols-three:visited  > h3,
+section.question-boxes > .question-boxes-container > .row > a.cols-three:hover    > h3,
+section.question-boxes > .question-boxes-container > .row > a.cols-three:active   > h3{
+  color: white;
+  text-decoration: none;
+}
+
+section.question-boxes > .question-boxes-container > .row > a.cols-one:link    ,
+section.question-boxes > .question-boxes-container > .row > a.cols-one:visited ,
+section.question-boxes > .question-boxes-container > .row > a.cols-one:hover   ,
+section.question-boxes > .question-boxes-container > .row > a.cols-one:active  
+section.question-boxes > .question-boxes-container > .row > a.cols-two:link    ,
+section.question-boxes > .question-boxes-container > .row > a.cols-two:visited ,
+section.question-boxes > .question-boxes-container > .row > a.cols-two:hover   ,
+section.question-boxes > .question-boxes-container > .row > a.cols-two:active  ,
+
+section.question-boxes > .question-boxes-container > .row > a.cols-three:link    ,
+section.question-boxes > .question-boxes-container > .row > a.cols-three:visited ,
+section.question-boxes > .question-boxes-container > .row > a.cols-three:hover   ,
+section.question-boxes > .question-boxes-container > .row > a.cols-three:active  {
+  color: white;
+  text-decoration: none;
+}
+
 
 /* HEIGHT */
 section.question-boxes > .question-boxes-container > .row > .question-boxes-cols{
@@ -17,8 +53,8 @@ section.question-boxes > .question-boxes-container > .row > .question-boxes-cols
 }
 /* OPACITY */
 section.question-boxes > .question-boxes-container > .row > .question-boxes-cols:hover{
-    filter: opacity(.5);
-    opacity: .5;
+  filter: opacity(.5);
+  opacity: .5;
 }
 
 @media (min-width: 576px) {
