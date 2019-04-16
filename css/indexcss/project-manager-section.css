@@ -1,0 +1,64 @@
+/* PROJECT MANAGER */
+section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .img-container > img{
+    width: 20%;
+  
+  }
+  @media (min-width: 768px) {
+  
+    section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .img-container > img{
+      width: 60%;
+  
+    }
+  }
+  
+  /* Mobile App Development Paragraph */
+    section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .project-manager-text > p{
+      width:70%;
+      font-size: 1rem;
+      line-height: 1.2;
+      word-wrap: break-word;
+      word-break:break-all;
+    }
+  
+  @media (min-width: 576px) { 
+    section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .project-manager-text > p{
+      width:80%;
+      font-size: 1.1rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .project-manager-text > p{
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* Mobile App Development Headding */
+    section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .project-manager-text > h1{
+      font-size: 1.25rem;
+    }
+  @media (min-width: 576px) { 
+    section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .project-manager-text > h1{
+      font-size: 1.5rem;
+    }
+  
+  }
+  
+  @media (min-width: 768px) { 
+    section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .project-manager-text > h1{
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (min-width: 992px) { 
+    section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .project-manager-text > h1{
+      font-size: 2rem;
+    }
+  }
+  
+  @media (min-width: 1200px) { 
+    section.project-manager > div.project-manager-container > div.row  .project-manager-cols > .project-manager-text > h1{
+      font-size: 2.5rem;
+    }
+  }
+  
+  
