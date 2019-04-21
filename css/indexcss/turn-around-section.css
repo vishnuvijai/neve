@@ -1,0 +1,63 @@
+/* PROJECT MANAGER */
+section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .img-container > img{
+    width: 35%;
+  
+  }
+  @media (min-width: 768px) {
+  
+    section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .img-container > img{
+      width: 60%;
+    }
+  }
+  
+  /* Mobile App Development Paragraph */
+    section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .turn-around-text > p{
+      width:70%;
+      font-size: 1rem;
+      line-height: 1.2;
+      word-wrap: break-word;
+      word-break:break-all;
+    }
+  
+  @media (min-width: 576px) { 
+    section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .turn-around-text > p{
+      width:80%;
+      font-size: 1.1rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .turn-around-text > p{
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* Mobile App Development Headding */
+    section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .turn-around-text > h1{
+      font-size: 1.25rem;
+    }
+  @media (min-width: 576px) { 
+    section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .turn-around-text > h1{
+      font-size: 1.5rem;
+    }
+  
+  }
+  
+  @media (min-width: 768px) { 
+    section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .turn-around-text > h1{
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (min-width: 992px) { 
+    section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .turn-around-text > h1{
+      font-size: 2rem;
+    }
+  }
+  
+  @media (min-width: 1200px) { 
+    section.turn-around > div.turn-around-container > div.row  .turn-around-cols > .turn-around-text > h1{
+      font-size: 2.5rem;
+    }
+  }
+  
+  

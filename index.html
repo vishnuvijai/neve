@@ -65,7 +65,7 @@
                 <a class="nav-link" href="./services.html">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="./contactus.html">Contact Us</a>
             </li>
         </ul>
     </div>
@@ -74,15 +74,70 @@
 <section class="question-boxes">
     <div class="container-fluid question-boxes-container">
         <div class="row">
-            <a class="col-12 col-sm question-boxes-cols cols-one text-center" href="#"><h3>Who we are?</h3></a>
-            <a class="col-12 col-sm question-boxes-cols cols-two text-center" href="#"><h3>What we do?</h3></a>
+            <a class="col-12 col-sm question-boxes-cols cols-one text-center" href="#" data-toggle="modal" data-target="#who" ><h3>Who we are?</h3></a>
+            <a class="col-12 col-sm question-boxes-cols cols-two text-center" href="#" data-toggle="modal" data-target="#what" ><h3>What we do?</h3></a>
             <a class="col-12 col-sm question-boxes-cols cols-three text-center" href="#"><h3>Why choose us?</h3></a>
         </div>
     </div>
 </section>
 
+
+<!-- Who we are? Modal -->
+
+<div class="modal" id="who">
+<div class="modal-dialog">
+    <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header" style="background-color:aliceblue;">
+            <h4 class="modal-title">Who we are?</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body" >
+            Modal body..
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer" style="background-color:aliceblue;">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<!-- What we do? Modal -->
+
+<div class="modal" id="what">
+<div class="modal-dialog">
+    <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header" style="background-color:aliceblue;">
+            <h4 class="modal-title">What we do?</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body" >
+            Modal body..
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer" style="background-color:aliceblue;">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+        
+    </div>
+</div>
+</div>
+
+
+
 <!-- CUSTOMER SUPPORT -->
-<section class="customer-support">
+<section class="customer-support mt-0">
     <div class="container-fluid customer-support-container h-100 ">
         <div class="row text-white  ">
             <div class="col-12 col-sm-8 col-md-6  customer-support-cols ">
@@ -111,13 +166,13 @@
         <div class="row">
             <div class="col-12 col-md-5 project-manager-cols order-2 order-md-1">
                 <div class="img-container">
-                    <img src="./img/Project Manager.svg"  alt="PC Image" class="d-block mx-auto float-md-right">
+                    <img src="./img/Project Manager.svg"  alt="Project Manager Image" class="d-block mx-auto float-md-right">
                 </div>
             </div>
             <div class="col-12 col-md-7 project-manager-cols d-flex align-items-center order-1 order-md-2">
                 <div class="project-manager-text mt-4 mt-md-0">
-                    <h1 class="  font-weight-bold mb-4 text-center text-md-left">Dedicated Project Manager</h1>
-                    <p class="  text-justify d-block mx-auto ml-md-0 text-center text-md-left">Lorem Ipsum is simply dummy text of the printing and type-setting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    <h1 class="font-weight-bold mb-4 text-center text-md-left">Dedicated Project Manager</h1>
+                    <p class="text-justify d-block mx-auto ml-md-0 text-center text-md-left">Lorem Ipsum is simply dummy text of the printing and type-setting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                 </div>
             </div>
         </div>
@@ -125,24 +180,50 @@
 </section>
  
 <!-- TIME DELIVERY -->
-<section class="time-delivery mt-7 mb-5 border">
-    <div class="container-fluid time-delivery-container">
-        <div class="row text-white  border">
-            <div class="col-12  col-md-8  time-delivery-cols "></div>
-            <div class="col-12 col-md-4 time-delivery-cols ">
-                <div class="time-delivery-text ">
-                    <h2 class="text-justify text-center text-md-left">Excellent Customer Support</h2>
-                    <p class="d-block mx-auto ml-md-0 text-justify text-md-left ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+<section class="time-delivery mt-7  ">
+    <div class="container-fluid time-delivery-container h-100">
+        <div class="row text-white">
+            <div class="col-12  col-md-7  time-delivery-cols "></div>
+            <div class="col-12  col-md-5 time-delivery-cols">
+                <div class="time-delivery-text">
+                    <h2 class="font-weight-bold text-justify text-center text-md-left">Excellent Customer Support</h2>
+                    <p class="d-block mx-auto ml-md-0 text-center text-justify text-md-left ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-8 time-delivery-cols">
+                <div class="img-container">
+                    <img src="./img/Truck.svg" alt="Truck Image" class="d-block mx-auto mr-md-0 img-fluid">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 time-delivery-cols"></div>
+        </div>
+    </div>
+</section>
+
+<section class="turn-around mt-7">
+    <div class="turn-around-container container-fluid">
+        <div class="row">
+
+            <div class="col-12 col-md-7 turn-around-cols d-flex align-items-center ">
+                <div class="turn-around-text mt-4 mt-md-0">
+                    <h1 class="font-weight-bold mb-4 text-center text-md-right">Dedicated Project Manager</h1>
+                    <p class="text-justify d-block mx-auto mr-md-0 text-center text-md-right">Lorem Ipsum is simply dummy text of the printing and type-setting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5 turn-around-cols ">
+                <div class="img-container">
+                    <img src="./img/TimePice.svg"  alt="Project Manager Image" class="d-block mx-auto ml-md-0">
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-
-
 <!-- FOOTER -->
-<footer class="footer mt-0">
+<footer class="footer mt-7">
     <div class="container footer-container">
         <div class="row py-5 ">
             <div class="col-12 col-md-3 footer-cols ">
@@ -152,28 +233,28 @@
             </div>
             <div class="col-12 col-sm footer-cols ">
                 <ul class="list-unstyled text-center mb-4 mb-sm-0">
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Connect With Us</a></li>
-                    <li><a href="">Careers</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Portfolio</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="./contactus.html">Connect With Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Portfolio</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm footer-cols">
                 <ul class="list-unstyled text-center mb-4 mb-sm-0">
-                    <li><a href="">Web Development</a></li>
-                    <li><a href="">Android Development</a></li>
-                    <li><a href="">iOS Development</a></li>
-                    <li><a href="">Digital Marketing</a></li>
-                    <li><a href="">E-Commerce</a></li>
+                    <li><a href="./services.html">Web Development</a></li>
+                    <li><a href="./services.html">Android Development</a></li>
+                    <li><a href="./services.html">iOS Development</a></li>
+                    <li><a href="./services.html">Digital Marketing</a></li>
+                    <li><a href="./services.html">E-Commerce</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm footer-cols">
                 <ul class="list-unstyled text-center mb-4 mb-sm-0">
-                    <li><a href="">FAQs</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms and Conditions</a></li>
-                    <li><a href="">Cookie Information</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Cookie Information</a></li>
                 
                 </ul>
             </div>
