@@ -21,7 +21,6 @@ section.mob-app > div.mob-app-container > div.row  .mob-app-cols > .img-containe
     font-size: 1rem;
     line-height: 1.2;
     word-wrap: break-word;
-    word-break:break-all;
   }
   
   @media (min-width: 576px) { 

@@ -18,7 +18,6 @@ section.e-com > div.e-com-container > div.row  .e-com-cols > .img-container > im
     font-size: 1rem;
     line-height: 1.2;
     word-wrap: break-word;
-    word-break:break-all;
   }
 
 @media (min-width: 576px) { 

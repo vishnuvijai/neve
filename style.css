@@ -1,6 +1,8 @@
 @import "./css/header.css";
 @import "./css/margin.css";
 @import "./css/footer.css";
+@import "./css/link.css";
+
 /* SERVICES PAGE */
 @import "./css/servicescss/app-dev-section.css";
 @import "./css/servicescss/ui-ux-section.css";
@@ -18,3 +20,5 @@
 @import "./css/indexcss/turn-around-section.css";
 /* CONTACT US PAGE */
 @import "./css/contactscss/contact-us-section.css";
+/* ABOUT US PAGE */
+@import "./css/aboutuscss/jumbotrons.css";

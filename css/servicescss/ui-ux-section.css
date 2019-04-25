@@ -105,11 +105,10 @@ section.ui-ux-design{
   
   /* UI UX Section Content-Paragraphs */
   section.ui-ux-design > .ui-ux-container > .row > .ui-ux-content .box-1, section.ui-ux-design > .ui-ux-container > .row > .ui-ux-content .box-2{
-  word-wrap: break-word;
-  word-break: break-all;
-  font-size: .8rem;
-  width:50% ;
-  color:black;
+    word-wrap: break-word;
+    font-size: .8rem;
+    width:50% ;
+    color:black;
   }
   
   @media (min-width: 576px) {

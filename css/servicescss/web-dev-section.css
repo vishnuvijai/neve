@@ -179,7 +179,6 @@ section.web-dev > .web-dev-container > .row .web-dev-cols-one > .web-dev-text > 
   font-size: 1rem;
   line-height: 1.2;
   word-wrap: break-word;
-  word-break:break-all;
   color: black;
 }
 

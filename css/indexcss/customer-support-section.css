@@ -175,11 +175,21 @@ section.customer-support > .customer-support-container > .row:first-child{
 /* POSITION LAST CHILD */
 section.customer-support > .customer-support-container > .row:last-child {
   position: relative;
-  top:6%;
+  top:15%;
 }
 @media (min-width: 576px) {
   section.customer-support > .customer-support-container > .row:last-child {
-    top:4%;
+    top:-15%;
+  }
+}
+@media (min-width: 660px) {
+  section.customer-support > .customer-support-container > .row:last-child {
+    top:-5%;
+  }
+}
+@media (min-width: 768px) {
+  section.customer-support > .customer-support-container > .row:last-child {
+    top:10%;
   }
 }
 @media (min-width: 992px) {
@@ -249,12 +259,17 @@ section.customer-support > .customer-support-container .row:first-child .custome
   line-height: 1.2;
   color: black;
   word-wrap: break-word;
-  word-break:break-all;
 }
 @media (min-width: 576px) {
   section.customer-support > .customer-support-container .row:first-child .customer-support-cols  > .customer-support-text p{
+    width:55%;
     font-size: 1rem;
     color: white;
+  }
+}
+@media (min-width: 768px) {
+  section.customer-support > .customer-support-container .row:first-child .customer-support-cols  > .customer-support-text p{
+    width:80%;
   }
 }
 @media (min-width: 1200px) {
