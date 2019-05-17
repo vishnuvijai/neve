@@ -13,11 +13,8 @@
 @import "./css/servicescss/tech-section.css";
 @import "./css/servicescss/map-image-section.css";
 /* INDEX PAGE */
-@import "./css/indexcss/question-boxes-section.css";
-@import "./css/indexcss/customer-support-section.css";
-@import "./css/indexcss/project-manager-section.css";
-@import "./css/indexcss/time-delivery-section.css";
-@import "./css/indexcss/turn-around-section.css";
+@import "./css/indexcss/words-section.css";
+@import "./css/indexcss/features-section.css";
 /* CONTACT US PAGE */
 @import "./css/contactscss/contact-us-section.css";
 /* ABOUT US PAGE */

@@ -1,0 +1,17 @@
+section.features > .features-container > .row > .features-col{
+    border:1px solid rgba(173, 173, 173, 0.122);
+}
+section.features > .features-container > .row{
+    box-shadow: 1px 1px 20px rgba(173, 173, 173, 0.5);
+}
+
+section.features > .features-container > .row > .features-col{
+    -ms-transition:background-color .5s;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    
+}
+section.features > .features-container > .row > .features-col:hover{
+    background-color: rgba(173, 173, 173, 0.1);
+    
+}
