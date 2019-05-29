@@ -1,0 +1,17 @@
+.text-blue{
+    color:#6178fd;
+}
+
+.btn-blue{
+    background-color: #6178fd;
+    color: white;
+}
+.btn-blue:hover{
+    background-color: #485bc4;
+    color: white;
+
+}
+
+.bg-blue{
+    background-color: #6178fd;
+}

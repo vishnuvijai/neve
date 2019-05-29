@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="264px"
-	 height="175px" viewBox="0 0 264 175" enable-background="new 0 0 264 175" xml:space="preserve">
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="150px" height="150px" viewBox="0 0 150 150" xml:space="preserve">
 <g id="Arrow">
-	<line fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" x1="242.59" y1="79.593" x2="130.396" y2="89.096"/>
-	<path fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" d="M240.958,79.75
-		c0.577-4.552,1.834-12.042,1.834-12.042c-10.584-0.462-22.292-0.125-20.708,13.5L240.958,79.75z"/>
-	<path fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" d="M240.774,79.78
-		c1.332,4.39,3.827,11.563,3.827,11.563c-10.357,2.23-21.956,3.86-22.679-9.836L240.774,79.78z"/>
+	<line fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" x1="135.787" y1="69.388" x2="76.148" y2="74.439"/>
+	<path fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" d="M134.918,69.472
+		c0.307-2.42,0.975-6.401,0.975-6.401c-5.626-0.246-11.85-0.066-11.008,7.176L134.918,69.472z"/>
+	<path fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" d="M134.821,69.488
+		c0.708,2.333,2.035,6.146,2.035,6.146c-5.506,1.186-11.672,2.052-12.056-5.229L134.821,69.488z"/>
 </g>
 <g id="Circle">
 	<g>
-		<path fill="none" stroke="#6666CC" stroke-width="3" stroke-miterlimit="10" d="M131.369,161.345
-			c-40.086,0-72.583-32.496-72.583-72.583S91.283,16.18,131.369,16.18"/>
-		<circle fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" cx="131.369" cy="88.762" r="58.565"/>
-		<circle fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" cx="131.369" cy="88.762" r="44.631"/>
-		<circle fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" cx="131.369" cy="88.762" r="32.41"/>
-		<circle fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" cx="131.369" cy="88.762" r="19.17"/>
-		<circle fill="#5F89FF" cx="131.508" cy="89.017" r="7.377"/>
+		<path fill="none" stroke="#6666CC" stroke-width="3" stroke-miterlimit="10" d="M76.665,112.845
+			c-21.309,0-38.583-17.274-38.583-38.583S55.356,35.68,76.665,35.68"/>
+		<circle fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" cx="76.665" cy="74.262" r="31.131"/>
+		<circle fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" cx="76.665" cy="74.262" r="23.725"/>
+		<circle fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" cx="76.665" cy="74.262" r="17.228"/>
+		<circle fill="none" stroke="#5F89FF" stroke-width="3" stroke-miterlimit="10" cx="76.665" cy="74.262" r="10.19"/>
+		<circle fill="#5F89FF" cx="76.739" cy="74.397" r="3.921"/>
 	</g>
 </g>
 <g id="Layer_3">
 	<g>
-		<rect x="10.86" y="131.5" fill="#FFFFFF" stroke="#DCD9FF" stroke-miterlimit="10" width="227" height="18"/>
-		<polyline fill="none" stroke="#DCD9FF" stroke-width="0.75" stroke-miterlimit="10" points="220.518,138.663 224.032,141.907 
-			227.547,138.663 		"/>
+		<rect x="12.606" y="96.98" fill="#FFFFFF" stroke="#DCD9FF" stroke-miterlimit="10" width="120.667" height="9.568"/>
+		<polyline fill="none" stroke="#DCD9FF" stroke-width="0.75" stroke-miterlimit="10" points="124.053,100.788 125.921,102.512 
+			127.79,100.788 		"/>
 	</g>
 </g>
 </svg>

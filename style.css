@@ -1,7 +1,10 @@
 @import "./css/header.css";
 @import "./css/margin.css";
+@import "./css/paddings.css";
 @import "./css/footer.css";
 @import "./css/link.css";
+@import "./css/nav.css";
+@import "./css/color.css";
 
 /* SERVICES PAGE */
 @import "./css/servicescss/app-dev-section.css";
@@ -15,6 +18,13 @@
 /* INDEX PAGE */
 @import "./css/indexcss/words-section.css";
 @import "./css/indexcss/features-section.css";
+@import "./css/indexcss/map.css";
+@import "./css/indexcss/info-section.css";
+@import "./css/indexcss/editor-section.css";
+@import "./css/indexcss/color-match.css";
+@import "./css/indexcss/team-section.css";
+@import "./css/indexcss/services-section.css";
+@import "./css/indexcss/get-started-section.css";
 /* CONTACT US PAGE */
 @import "./css/contactscss/contact-us-section.css";
 /* ABOUT US PAGE */

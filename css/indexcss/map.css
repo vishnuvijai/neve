@@ -1,0 +1,82 @@
+
+section.map > svg {
+ width: 100%;
+ background-color: #6178fd;
+}
+
+section.map > svg circle {
+ fill: #ffffff;
+
+}
+section.map > svg circle:hover {
+ width:150%;
+
+}
+
+
+section.map{
+    position: relative;
+}
+
+section.map > .map-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+/* MAP HEADING */
+
+section.map > .map-content > h1{
+    font-size: 1.5rem;
+    color:#ececec;
+
+}
+
+@media (min-width: 700px) {
+
+    section.map > .map-content > h1{
+        font-size: 2rem;
+    
+    }
+}
+
+@media (min-width: 790px) {
+    section.map > .map-content > h1{
+        font-size: 2.5rem;
+    
+    }
+}
+@media (min-width: 890px) {
+    section.map > .map-content > h1{
+        font-size: 3rem;
+    
+    }
+}
+
+@media (min-width: 992px) {
+    section.map > .map-content > h1{
+        font-size: 3.5rem;
+    
+    }
+}
+
+@media (min-width: 1300px) {
+    section.map > .map-content > h1{
+        font-size: 4rem;
+    
+    }
+}
+
+
+
+
+section.map > .btn{
+    position: absolute;
+    font-size: 1.5rem;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,0);
+}
+

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="276px"
-	 height="480px" viewBox="0 0 276 480" enable-background="new 0 0 276 480" xml:space="preserve">
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="150px" height="150px" viewBox="0 0 150 150" xml:space="preserve">
 <g id="Layer_1">
 	<g>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="15" y1="214.5" x2="262" y2="214.5">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="49" y1="69" x2="102" y2="69">
 			<stop  offset="0" style="stop-color:#45FFD2"/>
 			<stop  offset="1" style="stop-color:#5CA1FF"/>
 		</linearGradient>
-		<path fill="url(#SVGID_1_)" d="M262,21.5c0-8.284-6.259-14.5-14.543-14.5h-217C22.173,7,15,13.216,15,21.5V422h247V21.5z"/>
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="96.4717" y1="515.8164" x2="354.4714" y2="55.8161">
+		<path fill="url(#SVGID_1_)" d="M102,28.063c0-1.75-1.738-3.063-3.487-3.063H52.681C50.931,25,49,26.313,49,28.063V113h53V28.063z"
+			/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="66.6357" y1="132.5303" x2="121.0472" y2="35.5174">
 			<stop  offset="0" style="stop-color:#B1B1B1"/>
 			<stop  offset="0.103" style="stop-color:#DFDFDF"/>
 			<stop  offset="0.2" style="stop-color:#EBEBEB"/>
@@ -20,46 +20,51 @@
 			<stop  offset="0.8848" style="stop-color:#C2C2C2"/>
 			<stop  offset="1" style="stop-color:#A4A4A4"/>
 		</linearGradient>
-		<path fill="url(#SVGID_2_)" d="M15,422v33.5c0,8.284,7.173,15.5,15.457,15.5h217c8.284,0,14.543-7.216,14.543-15.5V422H15z"/>
+		<path fill="url(#SVGID_2_)" d="M49,113v6.727c0,1.749,1.931,3.273,3.681,3.273h45.832c1.749,0,3.487-1.524,3.487-3.273V113H49z"/>
 	</g>
 	<g>
 		
-			<image overflow="visible" opacity="0.27" width="36" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
-GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmRJREFUeNrsmLtLA0EQxje7B2ri
-A8H4QCsb0U5RREEstbET/0uxtRcUG+0ULawsRI1ingo5zxn4VjbLvXLJ5iwc+Mjl7nbvdzOze7Nb
-ENms0MW9gcvO2TxSCVIp7vdJDchPC5gWigFGSWXSCmkJYEnGMHdQDf/rAOwJir0zTVolbeA3C9QL
-6YZ0RXqOA/NSeIeB1kkHgJruMnxzaFcFELc9iwPzYoD44WvocB3H5YQXCetnHCrjV79MJJiKAdoh
-HZH2kUeTXQLZJklF0hS8xaGtkFr2AAiD4rfZBNAuaZ40gk57tVRgKiScC/DOHo490V9LBFOW12ZI
-24BaRmMXZoINk15JT6QvG0qH7ZC0hRySwp1JpAXDvZEeMEK/pTFflZDQepQp4d7MOXBZz33SCN2Y
-MWw9MTgbxWSsJ+SChipZFwZpypjH2DFKGqHLC8p2StEMXxFSOUOVpPVxLoh8rMMpUvwd+3XKX4Lq
-mMD+oRJq+cCGCrIU+X0yrqmakC/DTuYAZZbNDQnvdJzMGaopw0hzCF0VC4uaHb4aLvAN7QFC1S2H
-BNJI8oaxBHoZUG61sXi4Jt3qKCnrhhqqP/5iz6IqdBk2fvlz0imgWjZUgJMtlKmLpAlHc5kPD/Ey
-64R0SXoPq9HZvtHAA1i5jyuZMKDjsPWfiohzFR4bQVnhQdI1UBSUDmMFq4wKQMd79FobORQLJGIK
-Og32hFUGgw1l8JqPIf+Gvi6QQ5n2EnSHH8b+Eof0PmLXRRkj9dN4WKZdl37tTxWxmmZ7xDfU6f5U
-mp28KCinO3lJ7RRyTmDy9XvZ8/wRYABIl8v2IAZrlAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 120.5 426.5)">
+			<image opacity="0.27" width="11" height="11" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMVJREFUeNqUkUEKwkAMRaftgGCL
+G8GFuhFciSsRPIHgETywy6LQRe9RcSpCy/hTfiHElQOPpsn/kzRN3O/xYML4AzpdzEw8AyuwB2uQ
+gJ6mqA3yXIATuIAzOIAlOz7BW0yehoKCK01z5o9gy/gGGs+2OdhRsOGtjiPKSBV4SKdUjTSl0ZsF
+5KwN46fuzzMapG0Lglljx1xLzdAyMlmDUn2TY75kLegtvcCdcWUMNWuiGW7TP66gOFOjBop7axiP
+zUX98hVgAAqbLBUQPn7vAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 70.5 112.5)">
 		</image>
 		<g>
-			<circle fill="#FFFFFF" cx="138.332" cy="444.001" r="16"/>
+			<circle fill="#FFFFFF" cx="75.464" cy="117.298" r="3.379"/>
 		</g>
 	</g>
 </g>
 <g id="Layer_2">
-	<rect x="27" y="157" opacity="0.6" fill="#FFFFFF" width="221" height="120"/>
-	<rect x="27" y="290" opacity="0.6" fill="#FFFFFF" width="221" height="120"/>
-	<rect x="27" y="24" opacity="0.6" fill="#FFFFFF" width="96" height="117"/>
-	<rect x="141" y="49" fill="#E5E5E5" width="107" height="9"/>
-	<rect x="141" y="25" fill="#E5E5E5" width="89" height="9"/>
-	<rect x="34" y="165" fill="#E5E5E5" width="192" height="9"/>
-	<rect x="34" y="346" fill="#E5E5E5" width="192" height="9"/>
-	<rect x="34" y="181" fill="#E5E5E5" width="131" height="9"/>
-	<rect x="34" y="326" fill="#E5E5E5" width="131" height="9"/>
-	<rect x="34" y="303" fill="#E5E5E5" width="157" height="9"/>
-	<rect x="141" y="68" fill="#E5E5E5" width="68" height="9"/>
-	<rect x="141" y="90" fill="#E5E5E5" width="94" height="9"/>
-	<circle fill="#E5E5E5" cx="75" cy="235" r="29"/>
-	<circle fill="#E5E5E5" cx="141" cy="235" r="14.332"/>
-	<circle fill="#E5E5E5" cx="200" cy="235" r="26"/>
-	<path fill="#E5E5E5" d="M115,387c0,8.284-6.716,15-15,15H49c-8.284,0-15-6.716-15-15v-3c0-8.284,6.716-15,15-15h51
-		c8.284,0,15,6.716,15,15V387z"/>
+	
+		<image width="47" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAZCAYAAAChBHccAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADRJREFUeNrszgERADAIBCBn/wJL
+++bQgwS8JL+W6lpMXl5eXl5eXl5eXl5eXl5e/nB+BBgACw4DyFDEvmwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 52 57)">
+	</image>
+	
+		<image width="47" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAZCAYAAAChBHccAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADRJREFUeNrszgERADAIBCBn/wJL
+++bQgwS8JL+W6lpMXl5eXl5eXl5eXl5eXl5e/nB+BBgACw4DyFDEvmwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 52 85)">
+	</image>
+	
+		<image width="20" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACdJREFUeNpi/P///0wGKgImBiqD
+UQNHDRw1cNTAUQNHDRw5BgIEGADyHwPGwsCJIAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 52 29)">
+	</image>
+	<rect x="76" y="34" fill="#E5E5E5" width="23" height="2"/>
+	<rect x="76" y="29" fill="#E5E5E5" width="19" height="2"/>
+	<rect x="53" y="58" fill="#E5E5E5" width="41" height="2"/>
+	<rect x="53" y="97" fill="#E5E5E5" width="41" height="2"/>
+	<rect x="53" y="62" fill="#E5E5E5" width="28" height="2"/>
+	<rect x="53" y="92" fill="#E5E5E5" width="28" height="2"/>
+	<rect x="53" y="88" fill="#E5E5E5" width="34" height="1"/>
+	<rect x="76" y="38" fill="#E5E5E5" width="14" height="2"/>
+	<rect x="76" y="43" fill="#E5E5E5" width="20" height="1"/>
+	<circle fill="#E5E5E5" cx="62.088" cy="73.155" r="6.125"/>
+	<circle fill="#E5E5E5" cx="76.028" cy="73.155" r="3.027"/>
+	<circle fill="#E5E5E5" cx="88.489" cy="73.155" r="5.491"/>
+	<path fill="#E5E5E5" d="M70,104.832c0,1.75-1.419,3.168-3.169,3.168H56.169c-1.75,0-3.169-1.418-3.169-3.168v-0.664
+		c0-1.75,1.419-3.168,3.169-3.168h10.662c1.75,0,3.169,1.418,3.169,3.168V104.832z"/>
 </g>
 </svg>

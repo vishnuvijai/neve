@@ -1,0 +1,12 @@
+section.get-started{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 75%, black 100%), url("../../img/electronics-email.jpg");
+    background-position: center center;
+}
+section.get-started > .get-started-container > .row .get-started-cols:nth-child(2) input{
+    border: 1px solid lightgray;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color .5s;
+}
+section.get-started > .get-started-container > .row .get-started-cols:nth-child(2) input:focus{
+    background-color: rgb(255, 255, 255);
+}

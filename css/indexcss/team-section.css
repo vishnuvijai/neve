@@ -1,0 +1,12 @@
+section.team > .team-container .row .team-cols .card  {
+    position: relative;
+}
+section.team > .team-container .row .team-cols .card .curtain{
+    position: absolute;
+    background-color: rgba(5, 83, 201, 0);
+    transition: background-color .5s;
+}
+section.team > .team-container .row .team-cols .card .curtain:hover{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,8 @@
+section.editor {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 75%, black 100%), url("../../img/office.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+    background-color: azure;
+}
