@@ -21,3 +21,6 @@ input[type=text],input[type=email], select, textarea{
     width: 35rem;
     max-width: 100%;
 }
+.right-textarea-col textarea{
+  border: 1px solid lightgray;
+}

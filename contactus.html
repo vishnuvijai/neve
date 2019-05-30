@@ -76,32 +76,32 @@
 <section class="contact-us  pt-5 pb-5 px-5">
    <div class="container-fluid contact-us-container">
        <div class="row">
-           <div class="col-12 col-md-9">
-            <form action="./index.html" method="POST" >
-               <div class=" mb-2 d-flex flex-column flex-sm-row">
-                   <div class="left-col  mb-2 mb-sm-0 p-0">
+           <div class="contact-us-cols col-12 col-md-9">
+            <form action="./postcontacts.php" method="POST" >
+               <div class=" mb-2 d-flex flex-column flex-sm-row border">
+                   <div class="left-col border mb-2 mb-sm-0 ">
                        <label for="name" class="form-control m-0 border-0" >Full Name</label>
                    </div>
-                   <div class="right-col ">
-                       <input type="text" name="name" size="25" class="form-control rounded-corner ml-md-2 " placeholder="Full Name">
+                   <div class="right-col border">
+                       <input type="text" name="name" size="25" class="form-control rounded-corner ml-md-2 mb-md-0" placeholder="Full Name">
                    </div>
                </div>
-               <div class=" mb-2   d-flex flex-column flex-sm-row">
+               <div class=" mb-2   d-flex flex-column flex-sm-row border">
                    <div class="left-col  mb-2 mb-sm-0">
                        <label for="name" class="form-control  border-0">Email</label>
                    </div>
                    <div class="right-col ">
-                       <input type="email" name="email" size="25" class="form-control rounded-corner ml-md-2" placeholder="email">
+                       <input type="email" name="email" size="25" class="form-control rounded-corner ml-md-2 mb-md-0" placeholder="email">
                    </div>
                 </div>
-               <div class=" mb-2  d-flex flex-column flex-sm-row ">
-                   <div class="left-col  mb-2 mb-sm-0">
+               <div class=" mb-2  d-flex flex-column flex-sm-row border">
+                   <div class="left-col  mb-2 mb-sm-0 border">
                        <label for="name" class="form-control  border-0">Contact</label>
                     </div>
-                    <div class="right-col ">
-                        <input type="text" name="email" size="25" class="form-control rounded-corner ml-md-2" placeholder="Mobile Number">
+                    <div class="right-col border">
+                        <input type="text" name="email" size="25" class="form-control rounded-corner ml-md-2  mb-md-0" placeholder="Mobile Number">
                     </div>
-                </div>
+                </div> 
                 <div class=" mb-2  d-flex flex-column ">
                     <div class="left-textarea-col ">
                         <label for="name" class="form-control border-0">Message :</label>
@@ -112,26 +112,12 @@
                 </div>
                <div class=" mb-2  d-flex flex-column flex-sm-row ">
                     <div class="right-textarea-col">
-                        <input type="submit" value="Submit" class="float-right">
+                        <input type="submit" value="Submit" class="float-right rounded-pill btn btn-blue">
                     </div>
                 </div>
             </form>
             </div>
-            <div class="d-none d-md-block col-md-3">
-            <address>
-               <b> HQ Address</b><br>
-                ___________________<br>
-                Neve Solutions LLP,<br>
-                Statue,
-                Thiruvananthapuram,<br> 
-                Kerala, India. <br><br>
-
-                email : <a href="mailto:connectwithus@neveglobal.com" class="d-inline" style="color:blue;">connectwithus@neveglobal.com</a><br><br>
-
-                Tel : 0091 4712308669<br>
-                Mob : 0091 8606503293
-            </address>
-            </div>
+            <div class="contact-us-cols  col-md-3"></div>
        </div>
    </div>
 </section>
