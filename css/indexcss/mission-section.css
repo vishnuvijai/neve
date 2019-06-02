@@ -1,0 +1,45 @@
+
+
+
+section.mission-statement > .mission-statement-container .row:first-of-type .mission-statement-cols:last-child .mission-text p{
+font-size: 2rem;
+   
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+    section.mission-statement > .mission-statement-container .row:first-of-type .mission-statement-cols:last-child .mission-text:before{
+        position: absolute;
+        content: ' ';
+        width: 50px;
+        height: 50px;
+        border-left: 3px solid #6178fd;
+        border-top: 3px solid #6178fd;
+        top: 15%; 
+        left:10%;
+       
+    }
+    section.mission-statement > .mission-statement-container .row:first-of-type .mission-statement-cols:last-child .mission-text:after{
+        position: absolute;
+        content: ' ';
+        width: 50px;
+        height: 50px;
+        border-right: 3px solid #6178fd;
+        border-bottom: 3px solid #6178fd;
+        top:65%; 
+        right:10%;
+       
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
