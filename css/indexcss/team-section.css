@@ -1,5 +1,6 @@
 section.team > .team-container .row .team-cols .card  {
     position: relative;
+    cursor: pointer;
 }
 section.team > .team-container .row .team-cols .card .curtain{
     position: absolute;

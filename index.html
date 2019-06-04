@@ -24,7 +24,26 @@
 <link rel="stylesheet" href="style.css">
 <!-- TITLE -->
 <title>NEVE SOLUTIONS</title>
-
+<style>
+html{
+    scroll-behavior: smooth;
+}
+.next-button,.previous-button{
+    cursor: pointer;
+    width:2rem;
+    min-width:1.5rem;
+} 
+section.testimonial > .carousel-container p:before,section.testimonial > .carousel-container p:after {
+    display: inline;
+    content: "\201C";
+    font-size: 2rem;
+    line-height: .1em;
+    position: relative;
+    top:8px;
+    padding: 0rem .5rem;
+    color: #7a7a7a;
+}
+</style>
 </head>
 <body>
 <!-- HEADER -->
@@ -62,16 +81,31 @@
                 <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./aboutus.html">About Us</a>
+                <a class="nav-link" href="#editor">CEO's Message</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#clients">Our Clients</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./services.html">Services</a>
+                <a class="nav-link" href="#features">Promises</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./contactus.html">Contact Us</a>
+                <a class="nav-link" href="#words">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#team">The Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#clickstart">Get Started</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contact Us</a>
             </li>
         </ul>
     </div>
@@ -81,7 +115,7 @@
 </section>
 
 <!-- EDITOR'S SIGNATURE -->
-<section class="editor py-7 mt-0 mb-0 ">
+<section class="editor py-7 mt-0 mb-0 " id="editor">
     <h3 class="text-blue text-center">Choose Neve Solutions</h3>
     <div class="editor-container container  mt-5 ">
         <div class="row mb-3">
@@ -98,7 +132,7 @@
 </section>
 
 <!-- CLIENTS -->
-<section class="clients bg-blue d-none d-sm-block">
+<section class="clients bg-neveblue d-none d-sm-block" id="clients">
     <div class="clients-container container-fluid">
         <div class="row py-3">
             <div class="d-none col-md-2 d-md-flex flex-column justify-content-center align-items-center">
@@ -124,9 +158,9 @@
 </section>
 
 <!-- Features -->
-<section class="features mt-6 mb-6">
+<section class="features mt-6 mb-6" id="features">
 <div class="features-container container">
-    <h2 class="text-center mb-5">FEATURES</h2>
+    <h2 class="text-center mb-5">PROMISE OF <span class="text-blue">SERVICES</span></h2>
     <div class="row">
         <div class="features-col col-12 col-sm-6 col-lg-3 ">
 
@@ -167,24 +201,28 @@
 </section>
 
 <!-- INFO SECTION -->
-<section class="info py-6 d-none d-sm-block">
+<section class="info py-5 d-none d-sm-block">
 <div class="container-fluid">
     <div class="row text-white">
         <div class="col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
-            <i class="fas fa-map-marked-alt fa-2x"></i>
-            <h5 class="mt-3">World Wide Locations</h5>
+            <i class="fas fa-map-marked-alt fa-lg"></i>
+            <h6 class="mt-3">World Wide Locations</h6>
+            <p class="text-center small w-75">With offices in India, USA and UAE, we are equipped to offer both on-site and off-site services.</p>
         </div>
         <div class="col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
-            <i class="fas fa-desktop fa-2x"></i>
-            <h5 class="mt-3">World-class outputs</h5>
+            <i class="fas fa-desktop fa-lg"></i>
+            <h6 class="mt-3">World-class outputs</h6>
+            <p class="text-center small w-75">Our deliverables are nothing short of world-class and that’s one secret behind our success.</p> 
         </div>
         <div class="col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
-            <i class="fas fa-cogs fa-2x"></i>
-            <h5 class="mt-3">Top-notch services</h5>
+            <i class="fas fa-cogs fa-lg"></i>
+            <h6 class="mt-3">Top-notch services</h6>
+            <p class="text-center small w-75">We, at Neve, offers top-notch services to our clients depending on their requirements.</p> 
         </div>
         <div class="col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
-            <i class="fas fa-microchip fa-2x"></i>
-            <h5 class="mt-3">Best technology</h5>
+            <i class="fas fa-microchip fa-lg"></i>
+            <h6 class="mt-3">Best technology</h6>
+            <p class="text-center small w-75">Maximum efficiency is a promise we make to each of our clients with the help of our best technologies.</p> 
         </div>
     </div>
 </div>
@@ -193,7 +231,7 @@
 <section class="map" id="map">
     <div class="map-content d-flex justify-content-center align-items-center">
       <h1 class="text-nowrap">Hire Your Team Now!</h1>
-      <button class="btn btn-light rounded-pill ml-1 ml-sm-5 text-nowrap" type="button">Hire Now!</button>
+      <button class="btn btn-light rounded-pill ml-1 ml-sm-5 text-nowrap" type="button" id="hirenow">Hire Now!</button>
     </div>
     <svg viewBox="0 0 845.2 458">
         <circle class="st0" cx="826.1" cy="110.3" r="1.9"/>
@@ -2821,7 +2859,7 @@
 </section>
 
 <!-- WORDS -->
-<section class="words py-6">
+<section class="words py-6" id="words">
     <div class="words-container container-fluid">
         <div class="row">
             <div class="words-col col-12 col-lg-6 d-flex justify-content-end  align-items-center ">
@@ -2915,7 +2953,7 @@
                 </ul>   
             </div>
             <div class="words-svg-cols col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end align-items-center">
-                <button class="btn btn-blue rounded-pill mt-5 mt-lg-0 " type="button">Learn More</button>
+                <button class="btn btn-blue rounded-pill mt-5 mt-lg-0 " type="button" id="learnmore">Learn More</button>
                
             </div>
         <!--  Defining Angle Gradient Colors  --> 
@@ -2952,24 +2990,24 @@
     </div>
 </section>
 <!-- -->
-<!-- Vission -->
+<!-- Mission -->
 <section class="mission-statement mb-0">
     <div class="mission-statement-container container-fluid">
         <div class="row">
-            <div class="mission-statement-cols col-lg-6 bg-ash d-flex justify-content-center align-items-center py-5">
+            <div class="mission-statement-cols col-lg-6 bg-ash order-2 order-lg-1 d-flex justify-content-center align-items-center py-5">
                 <div class="mission-text w-75 text-justify">
                     <h3>Our Mission</h3>
                     <p>"We strive to be the best" is more than a caption for Neve; being one of the fastest growing web and mobile app development company, it is our mission to emerge and stay as the primary source for technology that everyone can rely on. We strive to stand as a symbol of quality, reliability and professionalism in the service sector by enabling our clients to achieve their desired objectives by developing innovative and sustainable technological solutions.</p>
                 </div>
             </div>
-            <div class="mission-statement-cols  col-lg-6 bg-lightash d-flex justify-content-center align-items-center py-5">
+            <div class="mission-statement-cols col-lg-6 bg-lightash order-1 order-lg-2 d-flex justify-content-center align-items-center py-5">
                 <div class="mission-text w-75 text-center">
                     <p>"We strive to be the best". Delivering a project is a point in our path, not the destination. </p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="mission-statement-cols col-lg-6 bg-ash d-flex justify-content-center align-items-center">
+        <div class="row ">
+            <div class="mission-statement-cols col-lg-6 bg-ash pt-5 d-flex justify-content-center align-items-center">
                 <div class="mission-text w-75 text-justify text-blue">
                     <h3>Your confidence in us fuels our passion and spirit</h3>
                 </div>
@@ -2977,21 +3015,21 @@
             <div class="mission-statement-cols  col-lg-6 bg-lightash d-flex justify-content-center align-items-center">
             </div>
         </div>
-    </div>
+        </div>
 </section>
-<!-- Vission -->
+<!-- Unique -->
 <section class="unique-statement mb-6">
         <div class="unique-statement-container container-fluid">
             <div class="row">
                 <div class="unique-statement-cols col-lg-6 bg-ash d-flex justify-content-center align-items-center py-5">
                     <div class="unique-text w-75 text-justify">
-                        <h3>Our Mission</h3>
+                        <h3>Our Uniqueness</h3>
                         <p>"We strive to be the best" is more than a caption for Neve; being one of the fastest growing web and mobile app development company, it is our mission to emerge and stay as the primary source for technology that everyone can rely on. We strive to stand as a symbol of quality, reliability and professionalism in the service sector by enabling our clients to achieve their desired objectives by developing innovative and sustainable technological solutions.</p>
                     </div>
                 </div>
                 <div class="unique-statement-cols  col-lg-6 bg-lightash d-flex justify-content-center align-items-center py-5">
-                    <div class="unique-image w-75 text-center">
-                        
+                    <div class="unique-image-container  w-75 text-center">
+                        <img src="./img/unique.jpg" alt="Image Unique" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -2999,8 +3037,8 @@
     </section>
 
 <!-- Services -->
-<section class="services mt-6 mb-6">
-<h2 class="text-center mb-5">SERVICES</h2>
+<section class="services mt-6 mb-6" id="services">
+<h2 class="text-center mb-5">BEST OF <span class="text-blue">SERVICES</span></h2>
 <div class="services-container container">
     <div class="row">
         <div class="services-col col-12 col-sm-6 col-lg-3 ">
@@ -3077,55 +3115,59 @@
 
 
 <!-- OUR TEAM -->
-<section class="team">
-    <h3 class="mb-5 text-center">OUR TEAM</h3>
+<section class="team  mt-7 mb-7" id="team">
+    <h3 class="mb-5 text-center">THE <span class="text-blue">TEAM</span></h3>
  <div class="container team-container">
      <div class="row mb-5">
         <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
-            <div class="card" style="width:250px;">
-                    <div class="curtain w-100 h-100"></div>
-               <img src="./img/one.png"  class="card-img-top alt="Image">
-               <div class="card-body">
-                   <h5 class="card-title">Title</h5>
-                   <p class="card-text">Content</p>
-               </div>
-               <div class="card-footer"></div>
-           </div>
-           
-        </div>     
-        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
-            <div class="card" style="width:250px;">
-                    <div class="curtain w-100 h-100"></div>
-               <img src="./img/two.png" class="card-img-top alt="Image">
-               <div class="card-body">
-                   <h5 class="card-title">Title</h5>
-                   <p class="card-text">Content</p>
-               </div>
-               <div class="card-footer"></div>
-           </div>
-           
-        </div>     
-        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
-            <div class="card" style="width:250px;">
-                    <div class="curtain w-100 h-100"></div>
-               <img src="./img/three.png"  class="card-img-top alt="Image">
-               <div class="card-body">
-                   <h5 class="card-title">Title</h5>
-                   <p class="card-text">Content</p>
-               </div>
-               <div class="card-footer"></div>
-           </div>
-
-        </div>     
-        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
-            <div class="card" style="width:250px;">
+            <div class="card mb-5 mb-lg-0" style="width:250px;">
                     <div class="curtain w-100 h-100"></div>
                <img src="./img/four.png"  class="card-img-top alt="Image">
                <div class="card-body">
-                   <h5 class="card-title">Title</h5>
-                   <p class="card-text">Content</p>
+                   <h5 class="card-title text-info">CEO & Co-Founder</h5>
+                   <p class="card-text text-muted small">Daniel Gray co-founded NEVE in 2016, he currently hold the position of CEO. He was a financial professional.</p>
                </div>
-               <div class="card-footer"></div>
+               <div class="card-footer text-center">
+               </div>
+           </div>
+           
+        </div>     
+        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
+            <div class="card mb-5 mb-lg-0" style="width:250px;">
+                    <div class="curtain w-100 h-100"></div>
+               <img src="./img/six.png"  class="card-img-top alt="Image">
+               <div class="card-body">
+                   <h5 class="card-title text-info">Managing Director</h5>
+                   <p class="card-text text-muted small">Primary Investor, Major Stake Holder and Managing Director of the Establishment. His vision takes us forward.</p>
+               </div>
+                <div class="card-footer text-center">
+                </div>
+           </div>
+           
+        </div>     
+        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
+            <div class="card mb-5 mb-lg-0" style="width:250px;">
+                    <div class="curtain w-100 h-100"></div>
+               <img src="./img/seven.png"  class="card-img-top alt="Image">
+               <div class="card-body">
+                   <h5 class="card-title text-info">Joint MD</h5>
+                   <p class="card-text text-muted small">Neve's Managing Director, Her efforst moves us together. She is a serial investor and was a finance professional with over 20 years of experience.</p>
+               </div>
+                <div class="card-footer text-center">
+                </div>
+           </div>
+        
+        </div>     
+        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
+            <div class="card mb-5 mb-lg-0" style="width:250px;">
+                    <div class="curtain w-100 h-100"></div>
+               <img src="./img/one.png"  class="card-img-top alt="Image">
+               <div class="card-body">
+                   <h5 class="card-title  text-info">Marketing Director</h5>
+                   <p class="card-text text-muted small">Ivan Nathula is our Marketing Director, responsible for Neve's Marketing Operations. She has over 10 years of solid marketing experience.</p>
+               </div> 
+               <div class="card-footer text-center">
+               </div>
            </div>
             
         </div>     
@@ -3133,50 +3175,55 @@
     
      <div class="row mb-5">
         <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
-            <div class="card" style="width:250px;">
+            <div class="card mb-5 mb-lg-0" style="width:250px;">
                     <div class="curtain w-100 h-100"></div>
                <img src="./img/five.png"  class="card-img-top alt="Image">
                <div class="card-body">
-                   <h5 class="card-title">Title</h5>
-                   <p class="card-text">Content</p>
+                   <h5 class="card-title text-info">Chief Technology Architect</h5>
+                   <p class="card-text text-muted small">Nathan Bays id Neve's CTA, responsible for our clients technology and architecture. He has over 30 years of expertise.</p>
                </div>
-               <div class="card-footer"></div>
+                <div class="card-footer text-center">
+                </div>
            </div>
            
         </div>     
         <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
-            <div class="card" style="width:250px;">
+            <div class="card mb-5 mb-lg-0" style="width:250px;">
                     <div class="curtain w-100 h-100"></div>
-               <img src="./img/six.png"  class="card-img-top alt="Image">
+               <img src="./img/two.png" class="card-img-top alt="Image">
                <div class="card-body">
-                   <h5 class="card-title">Title</h5>
-                   <p class="card-text">Content</p>
+                   <h5 class="card-title text-info">Chief Technical Officer</h5>
+                   <p class="card-text text-muted small">David Stephenis Neve's CTO and is responsible for the firm's technology and operations. He has over 30 yeasr of technical expertise.</p>
                </div>
-               <div class="card-footer"></div>
+               <div class="card-footer text-center">
+               </div>
            </div>
            
         </div>     
         <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
-            <div class="card" style="width:250px;">
+            <div class="card mb-5 mb-lg-0" style="width:250px;">
                     <div class="curtain w-100 h-100"></div>
-               <img src="./img/seven.png"  class="card-img-top alt="Image">
+               <img src="./img/three.png"  class="card-img-top alt="Image">
                <div class="card-body">
-                   <h5 class="card-title">Title</h5>
-                   <p class="card-text">Content</p>
+                   <h5 class="card-title text-info">Finance Director</h5>
+                   <p class="card-text text-muted small">Christopher Bagall is our Finance Director and a qualified member of Certified Public Accountants Organization </p>
                </div>
-               <div class="card-footer"></div>
+               <div class="card-footer text-center">
+               </div>
            </div>
+
 
         </div>     
         <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center team-cols">
-            <div class="card" style="width:250px;">
+            <div class="card mb-5 mb-lg-0" style="width:250px;">
                     <div class="curtain w-100 h-100"></div>
                <img src="./img/eight.png"  class="card-img-top alt="Image">
                <div class="card-body">
-                   <h5 class="card-title">Title</h5>
-                   <p class="card-text">Content</p>
+                   <h5 class="card-title text-info">Director Overseas Operation</h5>
+                   <p class="card-text text-muted small">Director of overseas operations at Neve, she was a marketing professional and has over 20years of expertise. </p>
                </div>
-               <div class="card-footer"></div>
+                <div class="card-footer text-center">
+                </div>
            </div>
             
         </div>     
@@ -3185,9 +3232,26 @@
  </div>
 </section>
 
+<!-- Click Started -->
+<section class="click-started  mt-6 mb-6" id="clickstart">
+    <div class="click-started-container container pt-6-5">
+        <div class="row text-white">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-8">
+                <h3 class="text-uppercase text-center text-lg-left d-block mx-auto ml-lg-0">Got any Questions</h3>
+                <h2 class="text-uppercase font-weight-bold text-center text-lg-left d-block mx-auto ml-lg-0">Regarding Our Service?</h2>
+                <p class="w-75 mb-5 text-center text-lg-left d-block mx-auto ml-lg-0">We have answers to all your questions regarding your project. Don't hesitate! We’re here to help.</p>
+                <button class="btn btn-blue d-block mx-auto ml-xl-0" type="button" id="write">Write To Us</button>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+</section>
+
+
 <!-- Testimonials -->
-<section class="testimonial mt-6 mb-6">
-    <div class="container">
+<section class="testimonial mt-7 mb-7" id="testimonial">
+    <div class="heading-container container">
         <div class="row">
             <div class="col-10 d-block mx-auto">
                 <i class="fas fa-quote-left fa-3x text-blue"></i><br><br>
@@ -3196,12 +3260,81 @@
         </div>
         <br>
     </div>
-    <iframe src="./carousel.html" class="w-100 h-100" frameborder="0" style="width:100%; overflow:visible;"></iframe>
-    
+    <!-- CAROUSEL  -->
+    <div class="carousel-container container" style="overflow: visible;">
+        <div class="row">
+            <div class="col-1 d-flex justify-content-end align-items-center">
+                <img src="./img/prev-icon.png" alt="Prev Icon Image" class="mb-5 previous-button d-none d-sm-block" >
+                
+            </div>
+            <div class="col-10 d-block mx-auto">
+                <div class="owl-carousel owl-theme ">
+
+                    <div class="item">
+                        <div class="card d-flex flex-row border-0 align-items-center justify-content-center">
+                            <img class="rounded-circle img-fluid"  src="./img/testi-four.png" alt="Image" style="width:150px;">
+                            <div class="card-body">
+                                
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card d-flex flex-row border-0 align-items-center justify-content-center">
+                            <img class="rounded-circle img-fluid"  src="./img/six.jpeg" alt="Image" style="width:150px;">
+                            <div class="card-body">
+                                
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card d-flex flex-row border-0 align-items-center justify-content-center">
+                            <img class="rounded-circle img-fluid"  src="./img/testi-one.png" alt="Image" style="width:150px;">
+                            <div class="card-body">
+                                
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card d-flex flex-row border-0 align-items-center justify-content-center">
+                            <img class="rounded-circle img-fluid"  src="./img/five.jpg" alt="Image" style="width:150px;">
+                            <div class="card-body">
+                                
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-1 d-flex justify-content-start align-items-center">
+                <img src="./img/next-icon.png" alt="Prev Icon Image" class="mb-5 next-button d-none d-sm-block" >
+            </div>
+                
+        </div>
+    </div>
 </section> 
+
+
 <!-- GET STARTED SECTION -->
 <section class="get-started py-7">
 <div class="get-started-container container">
+    <div class="row mb-4">
+        <div class="get-started-cols col-lg-2">
+            <p hidden="true">Dummy Col</p>
+        </div>
+        <div class="get-started-cols col-lg-6 text-white">
+            <h5>Subscribe for News and Updates!</h5>
+        </div>
+        <div class="get-started-cols col-lg-3">
+            <p hidden="true">Dummy Col</p>
+        </div>
+    </div>
     <div class="row">
         <div class="get-started-cols col-lg-2">
             <p hidden="true">Dummy Col</p>
@@ -3210,7 +3343,7 @@
             <input type="text" form="getStarted" class="d-block mx-auto mb-5 mb-lg-0 p-2 rounded-pill w-100" placeholder="  email">
         </div>
         <div class="get-started-cols col-lg-3">
-            <input type="submit" form="getStarted" class="d-block mx-auto btn btn-blue rounded-pill" value="Enquire Now">
+            <input type="submit" form="getStarted" class="d-block mx-auto btn btn-blue rounded-pill" value="Subscribe Now!">
         </div>
     </div>
 </div>
@@ -3244,7 +3377,7 @@
                     <li><a href="./services.html">E-Commerce</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-sm footer-cols d-flex justify-content-center justify-content-sm-start">
+            <div class="col-12 col-sm footer-cols d-flex justify-content-center justify-content-sm-start" id="contactus">
                 <ul class="list-unstyled text-center text-sm-left mb-4 mb-sm-0">
                     <li><b>Contact</b><br>
                     ___________________<br>
@@ -3259,7 +3392,6 @@
                     </li>
                 </ul>
             </div>
-            
         </div>
         <div class="row">
             <div class="col-12 col-md-9 order-2 order-md-1 text-center text-white"><p>All Rights Reserved &copy 2019 NEVE Solutions LLP. Designed and Developed by Vishnu Vijai.</p></div>
@@ -3273,7 +3405,7 @@
     </div>
 </footer>
 
-<script src="./js/jquery-3.3.1.slim.min.js"></script>
+<script src="./js/jquery-3.3.1.min.js"></script>
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <!-- OWL CAROUSEL JS CDN -->
@@ -3290,19 +3422,7 @@ $(document).ready(function(){
     responsive:{
         0:{
             items:1
-        },
-        576:{
-            items:2
-        },
-        768:{
-            items:3
-        },
-        992:{
-            items:4
-        },
-        1200:{
-            items:5
-        },
+        }
     }
   });
 
@@ -3318,5 +3438,22 @@ $(document).ready(function(){
 });
 </script>
 <script src="./js/scrollwords.js"></script>
+<script src="./js/scroll.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        smoothscroll("nav.navbar .collapse", "a");
+
+    });
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#write,#learnmore,#hirenow').click(function() {
+        window.location.href = "contactus.html";
+    });
+});
+// $()
+</script>
+
 </body>
 </html>

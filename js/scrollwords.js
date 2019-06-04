@@ -4,9 +4,10 @@ let selectorTwo = "section.words > .words-container .row:last-child .words-svg-c
 let selectorThree = "section.words > .words-container .row:last-child .words-svg-cols:nth-child(3) > .pie li svg:last-child path";
 let selectorFour = "section.words > .words-container .row:last-child .words-svg-cols:nth-child(4) > .pie li svg:last-child path";
     $(document).scroll(function(){
+        var hT = $('#words').offset().top;
         let val = $(window).scrollTop();
         
-        if (val> 3500 ) {
+        if (val> hT ) {
             startAnimation(selectorOne,"load 2s","628");
             startAnimation(selectorTwo,"load 2s","610");
             startAnimation(selectorThree,"load 2s","628");

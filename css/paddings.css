@@ -10,3 +10,27 @@
     padding-top: 24rem !important;
     padding-bottom: 24rem !important;
 }
+.pb-6{
+    padding-bottom: 6rem !important;
+}
+.pb-6-5{
+    padding-bottom: 8rem !important;
+}
+.pb-7{
+    padding-bottom: 12rem !important;
+}
+.pb-8{
+    padding-bottom: 24rem !important;
+}
+.pt-6{
+    padding-top: 6rem !important;
+}
+.pt-6-5{
+    padding-top: 8rem !important;
+}
+.pt-7{
+    padding-top: 12rem !important;
+}
+.pt-8{
+    padding-top: 24rem !important;
+}
