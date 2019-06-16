@@ -6,15 +6,6 @@
 @import "./css/nav.css";
 @import "./css/color.css";
 
-/* SERVICES PAGE */
-@import "./css/servicescss/app-dev-section.css";
-@import "./css/servicescss/ui-ux-section.css";
-@import "./css/servicescss/mob-app-section.css";
-@import "./css/servicescss/web-dev-section.css";
-@import "./css/servicescss/e-com-section.css";
-@import "./css/servicescss/seo.css";
-@import "./css/servicescss/tech-section.css";
-@import "./css/servicescss/map-image-section.css";
 /* INDEX PAGE */
 @import "./css/indexcss/words-section.css";
 @import "./css/indexcss/features-section.css";
@@ -27,7 +18,6 @@
 @import "./css/indexcss/get-started-section.css";
 @import "./css/indexcss/mission-section.css";
 @import "./css/indexcss/click-started-section.css";
+@import "./css/indexcss/tech-section.css";
 /* CONTACT US PAGE */
 @import "./css/contactscss/contact-us-section.css";
-/* ABOUT US PAGE */
-@import "./css/aboutuscss/jumbotrons.css";

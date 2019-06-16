@@ -1,3 +1,10 @@
 section.info{
     background-image:linear-gradient(to top right, #6178fd, #7bd5ff);
+    cursor: pointer;
+}
+section.info > .info-container > .row .info-cols{
+   transition: background-color .5s;
+}
+section.info > .info-container > .row .info-cols:hover{
+   background-color: rgba(0, 0, 0,.1);
 }
