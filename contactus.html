@@ -23,32 +23,40 @@
 <title>NEVE SOLUTIONS</title>
 </head>
 <body>
-    <div class="curtain"> 
-        <img src="./img/laughing.gif" alt="Image Laughing" style="width: 50%;" class="d-block mx-auto">
-    </div>
 <!-- HEADER -->
 <header class="masthead">
+
     <!-- Brand -->
     <div class="masthead-brand container">
-        <img src="./img/LOGO NEVE.svg" alt="LOGO" style="width:8.5em;" class="mt-5 d-block d-sm-inline mx-auto">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="./img/LOGO NEVE.svg" alt="LOGO" style="width:8.5em;" class="mt-5 d-block d-sm-inline mx-auto">
+                
+            </div>
+        </div>
     </div>
-    <!-- Form -->
-    <form action="post.php" id="email_form" method="POST"></form>
+
     <!-- Lower Content -->
-    <div class="masthead-content container d-none  d-sm-flex flex-column align-content-end justify-content-end ">
-
-        <div class="row ml-auto  text-light flex-column align-content-end justify-content-end">
-            <div class="masthead-heading-text col-md-2 d-none d-md-block  "><h3>Contact Us!</h3></div>
-            <div class="masthead-content-text col-md-5 d-none d-md-block mb-sm-0 mb-md-4 text-justify "><p>We offer the best talents from across the globe, who are ready to work with you to bring your dream into the spotlight. <span class="lead"> Hire your team NOW!</span></p> </div>
+    <div class="masthead-content container d-none  d-sm-block ">
+    
+        <div class="row  text-light d-none d-md-flex">
+            <div class="masthead-heading-text col-sm-7 "></div>
+            <div class="masthead-content-text col-sm-5 text-justify "><h3>Contact Us!</h3></div>
+            <div class="masthead-heading-text col-sm-7 "></div>
+            <div class="masthead-content-text col-sm-5  text-justify "><p>We offer the best talents from across the globe, who are ready to work with you to bring your dream into the spotlight. <span class="lead"> Hire your team NOW!</span></p> </div>
+        </div>
+                 
+        <div class="row ml-auto justify-content-end ">
+            <input type="email" name="mail" style="width:30rem;" class="form-control mb-2 mb-md-0 mr-2 rounded-pill" form="email_form" placeholder="email" size="50">
+            <input type="submit" value="Get Strated" class="btn btn-outline-light rounded-pill mr-2" form="email_form">
+            <button class="btn btn-outline-light rounded-pill" >Message</button>
         </div>
 
-        <div class="row ml-auto align-content-end  justify-content-end ">
-            <div class="col-md-2 input flex-fill"></div>
-            <div class="col-md-6 input "><input type="email" name="mail" class="form-control rounded-pill" form="email_form" placeholder="email" size="50"></div>
-            <div class="col-md-2 input "><input type="submit" value="Get Strated" class="btn btn-outline-light rounded-pill" form="email_form"></div>
-            <div class="col-md-2 input "><button class="btn btn-outline-light rounded-pill" >Message</button></div>
-        </div>
     </div>
+<!-- Form -->
+<form action="post.php" id="email_form" method="POST"></form>
+
+
 </header>
 <!-- STICKY NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
@@ -60,73 +68,66 @@
             <li class="nav-item">
                 <a class="nav-link" href="./index.html">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="./aboutus.html">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="./services.html">Services</a>
-            </li>
             <li class="nav-item active">
-                <a class="nav-link disabled" href="./contactus.html">Contact Us</a>
+                <a class="nav-link " href="./contactus.html">Contact Us</a>
             </li>
         </ul>
     </div>
 </nav>
+
+<form action="./postcontacts.php" method="POST" id="enquiry"></form>
+
 <!-- BODY -->
 <section class="contact-us  pt-5 pb-5 px-5">
    <div class="container-fluid contact-us-container">
        <div class="row">
            <div class="contact-us-cols col-12 col-md-9">
-            <form action="./postcontacts.php" method="POST" >
-               <div class=" mb-2 d-flex flex-column flex-sm-row border">
-                   <div class="left-col border mb-2 mb-sm-0 ">
-                       <label for="name" class="form-control m-0 border-0" >Full Name</label>
+               <div class="contact-us-content mb-2 d-flex flex-column flex-sm-row  w-100">
+                   <div class="left-col ">
+                       <label for="name" class="form-control  border-0 text-nowrap" >Full Name</label>
                    </div>
-                   <div class="right-col border">
-                       <input type="text" name="name" size="25" class="form-control rounded-corner ml-md-2 mb-md-0" placeholder="Full Name">
+                   <div class="right-col ">
+                       <input type="text" name="name" form="enquiry" class="form-control rounded-corner ml-md-2 mb-md-0" placeholder="Full Name">
                    </div>
                </div>
-               <div class=" mb-2   d-flex flex-column flex-sm-row border">
-                   <div class="left-col  mb-2 mb-sm-0">
+               <div class="contact-us-content mb-2   d-flex flex-column flex-sm-row ">
+                   <div class="left-col">
                        <label for="name" class="form-control  border-0">Email</label>
                    </div>
                    <div class="right-col ">
-                       <input type="email" name="email" size="25" class="form-control rounded-corner ml-md-2 mb-md-0" placeholder="email">
+                       <input type="email" name="email" form="enquiry"  class="form-control rounded-corner ml-md-2 mb-md-0" placeholder="email">
                    </div>
                 </div>
-               <div class=" mb-2  d-flex flex-column flex-sm-row border">
-                   <div class="left-col  mb-2 mb-sm-0 border">
+               <div class="contact-us-content mb-2  d-flex flex-column flex-sm-row ">
+                   <div class="left-col ">
                        <label for="name" class="form-control  border-0">Contact</label>
                     </div>
-                    <div class="right-col border">
-                        <input type="text" name="email" size="25" class="form-control rounded-corner ml-md-2  mb-md-0" placeholder="Mobile Number">
+                    <div class="right-col ">
+                        <input type="text" name="email" form="enquiry"  class="form-control rounded-corner ml-md-2  mb-md-0" placeholder="Mobile Number">
                     </div>
                 </div> 
-                <div class=" mb-2  d-flex flex-column ">
+                <div class="contact-us-content mb-2  d-flex flex-column ">
                     <div class="left-textarea-col ">
                         <label for="name" class="form-control border-0">Message :</label>
                     </div>
                     <div class="right-textarea-col">
-                        <textarea name="content" id="contents" cols="35" rows="10" class="rounded"></textarea>
+                        <textarea name="content" id="contents" form="enquiry"  cols="35" rows="10" class="rounded" ></textarea>
                     </div>
                 </div>
                <div class=" mb-2  d-flex flex-column flex-sm-row ">
-                    <div class="right-textarea-col">
-                        <input type="submit" value="Submit" class="float-right rounded-pill btn btn-blue">
+                    <div class="right-textarea-col ">
+                        <input type="submit" value="Submit"  form="enquiry" class="float-right rounded-pill btn btn-blue ">
                     </div>
                 </div>
-            </form>
+
             </div>
-            <div class="contact-us-cols  col-md-3"></div>
+            <div class="contact-us-cols  col-md-3 "></div>
        </div>
    </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="footer mt-7">
+<footer class="footer mt-3">
     <div class="container footer-container">
         <div class="row py-5 ">
             <div class="col-12 col-md-3 footer-cols d-flex flex-column">
@@ -184,11 +185,7 @@
 <script src="./js/jquery-3.3.1.slim.min.js"></script>
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function() {
-    alert('This page is under-construction pls ref home page');
-});
-</script>
+
 
 </body>
 </html>

@@ -52,29 +52,39 @@ section.testimonial > .carousel-container p:before,section.testimonial > .carous
 </head>
 <body>
 <!-- HEADER -->
-<header class="masthead">
+<header class="masthead" id="masthead">
+
     <!-- Brand -->
-    <div class="masthead-brand container">
-        <img src="./img/LOGO NEVE.svg" alt="LOGO" style="width:8.5em;" class="mt-5 d-block d-sm-inline mx-auto">
+    <div class="masthead-brand container ">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="./img/LOGO NEVE.svg" alt="LOGO" style="width:8.5em;" class="mt-5 d-block d-sm-inline mx-auto">
+                
+            </div>
+        </div>
     </div>
-    <!-- Form -->
-    <form action="post.php" id="email_form" method="POST"></form>
     <!-- Lower Content -->
-    <div class="masthead-content container d-none  d-sm-flex flex-column align-content-end justify-content-end ">
-
-        <div class="row ml-auto  text-light flex-column align-content-end justify-content-end">
-            <div class="masthead-heading-text col-md-2 d-none d-md-block  "><h3>Welcome!</h3></div>
-            <div class="masthead-content-text col-md-5 d-none d-md-block mb-sm-0 mb-md-4 text-justify "><p> We offer the best talents from across the globe, who are ready to work with you to bring your dream into the spotlight. <span class="lead"> Hire your team NOW!</span> </p> </div>
+    <div class="masthead-content container d-none  d-sm-block ">
+    
+        <div class="row  text-light d-none d-md-flex">
+            <div class="masthead-heading-text col-sm-7 "></div>
+            <div class="masthead-content-text col-sm-5 text-justify "><h3>Contact Us!</h3></div>
+            <div class="masthead-heading-text col-sm-7 "></div>
+            <div class="masthead-content-text col-sm-5  text-justify "><p>We offer the best talents from across the globe, who are ready to work with you to bring your dream into the spotlight. <span class="lead"> Hire your team NOW!</span></p> </div>
         </div>
 
-        <div class="row ml-auto align-content-end  justify-content-end ">
-            <div class="col-md-2 input flex-fill"></div>
-            <div class="col-md-6 input "><input type="email" name="mail" class="form-control rounded-pill" form="email_form" placeholder="email" size="50"></div>
-            <div class="col-md-2 input "><input type="submit" value="Get Strated" class="btn btn-outline-light rounded-pill" form="email_form"></div>
-            <div class="col-md-2 input "><button class="btn btn-outline-light rounded-pill" >Message</button></div>
+        <div class="row ml-auto justify-content-end ">
+            <input type="email" name="mail" style="width:30rem;" class="form-control mb-2 mb-md-0 mr-2 rounded-pill" form="email_form" placeholder="email" size="50">
+            <input type="submit" value="Get Strated" class="btn btn-outline-light rounded-pill mr-2" form="email_form">
+            <button class="btn btn-outline-light rounded-pill" >Message</button>
         </div>
+
     </div>
+<!-- Form -->
+<form action="post.php" id="email_form" method="POST"></form>
+    
 </header>
+
 <!-- STICKY NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +93,7 @@ section.testimonial > .carousel-container p:before,section.testimonial > .carous
     <div id="my-nav" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="#masthead">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#editor">CEO's Message</a>
@@ -104,6 +114,9 @@ section.testimonial > .carousel-container p:before,section.testimonial > .carous
                 <a class="nav-link" href="#team">The Team</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="#technologies">Technology</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#clickstart">Get Started</a>
             </li>
             <li class="nav-item">
@@ -115,9 +128,9 @@ section.testimonial > .carousel-container p:before,section.testimonial > .carous
         </ul>
     </div>
 </nav>
-<section class="color-match">
-    
-</section>
+
+<!-- EDITORS MESSAGE - BACKGROUND EXTENDED CBLACK COLOR -->
+<section class="color-match"></section>
 
 <!-- EDITOR'S SIGNATURE -->
 <section class="editor py-7 mt-0 mb-0 " id="editor">
@@ -232,6 +245,7 @@ section.testimonial > .carousel-container p:before,section.testimonial > .carous
     </div>
 </div>
 </section>
+
 <!-- DOTTED MAP -->
 <section class="map" id="map">
     <div class="map-content d-flex justify-content-center align-items-center">
@@ -2995,6 +3009,7 @@ section.testimonial > .carousel-container p:before,section.testimonial > .carous
     </div>
 </section>
 <!-- -->
+
 <!-- Mission -->
 <section class="mission-statement mb-0">
     <div class="mission-statement-container container-fluid">
@@ -3022,6 +3037,7 @@ section.testimonial > .carousel-container p:before,section.testimonial > .carous
         </div>
         </div>
 </section>
+
 <!-- Unique -->
 <section class="unique-statement mb-6">
         <div class="unique-statement-container container-fluid">
@@ -3239,7 +3255,7 @@ section.testimonial > .carousel-container p:before,section.testimonial > .carous
 
 
 <!-- Technologies -->
-<section class="technologies mt-6 mb-6">
+<section class="technologies mt-6 mb-6" id="technologies">
     <h3 class="mb-5 text-center"><span class="text-blue">TECHNOLOGY</span> COMBINATIONS</h3>
     <div class="container technologies-container">
         <div class="row">

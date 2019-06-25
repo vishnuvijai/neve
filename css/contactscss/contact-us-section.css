@@ -1,35 +1,106 @@
-div.curtain{
-    background-color: white;
-    opacity: .8;
-    filter: opacity(.8);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 50;
-}
 .left-col{
-    width:10rem;
-    max-width: 100%;
+    width:12rem;
 }
 
 .right-col{
-    width: 25rem;
+    width: 35rem;
     max-width: 100%;
 }
 
-input[type=text],input[type=email], select, textarea{
-    width: 100%;
-    resize: vertical;
+
+/* INPUT WIDTH */
+@media (min-width: 576px) {
+    section.contact-us > .container-fluid > .row .contact-us-cols .contact-us-content input{
+        width:20rem;
+        max-width: 100%;
+    }
+    
 }
+
+@media (min-width: 768px) {
+    section.contact-us > .container-fluid > .row .contact-us-cols .contact-us-content input{
+        width:22rem;
+        max-width: 100%;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    section.contact-us > .container-fluid > .row .contact-us-cols .contact-us-content input{
+        width:30rem;
+        max-width: 100%;
+    }
+    
+}
+
+
+
+/* TEXTAREA AND COLUMN WIDTH */
+textarea{
+    width: 25rem;
+    max-width: 100%;
+    resize: both;
+}
+.right-textarea-col{
+    width: 28rem;
+    max-width: 100%;
+}
+
+@media (min-width: 576px) {
+    textarea{
+        width: 28rem;
+        max-width: 100%;
+        resize: both;
+    }
+    .right-textarea-col{
+        width: 28rem;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    textarea{
+        width: 30rem;
+        max-width: 100%;
+        resize: both;
+    }
+    .right-textarea-col{
+        width: 30rem;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    textarea{
+        width: 42rem;
+        max-width: 100%;
+        resize: both;
+    }
+    .right-textarea-col{
+        width: 42rem;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    textarea{
+        width: 45rem;
+        max-width: 100%;
+        resize: both;
+    }
+    .right-textarea-col{
+        width: 45rem;
+        max-width: 100%;
+    }
+}
+
+
 
 .left-textarea-col{
     width:10rem;
     max-width: 100%;
 }
-.right-textarea-col{
-    width: 35rem;
-    max-width: 100%;
-}
+
 .right-textarea-col textarea{
   border: 1px solid lightgray;
 }

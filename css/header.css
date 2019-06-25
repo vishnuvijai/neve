@@ -30,46 +30,25 @@ header.masthead{
   header.masthead{
       background-image: url("../img/Background Hero.png");
       height: 40rem;
-        
-  }   
+  }
 }
 
 
-
-
-
-/* Header Masthead Container Height*/
+/* Header Masthead Content Position*/
 
 header.masthead > div.masthead-content.container{
-  height: 50%;
+ position: relative;
+ top:10%;
 }
 
-@media (min-width: 576px) {  
+@media (min-width: 992px) { 
   header.masthead > div.masthead-content.container{
-    height: 50%;
-  }
-
+    position: relative;
+    top:35%;
+   }
+   
 }
 
-@media (min-width: 768px) {  
-  header.masthead > div.masthead-content.container{
-    height: 60%;
-  }
-
-}
-
-@media (min-width: 992px) {  
-  header.masthead > div.masthead-content.container{
-    height: 65%;
-  }
-
-}
-
-@media (min-width: 1200px) { 
-  header.masthead > div.masthead-content.container{
-    height: 70%;
-  }
-}
 
 
 /* Header Masthead Content Heading */
@@ -99,18 +78,7 @@ header.masthead > div.masthead-content.container  .row:first-child > .masthead-h
 
 /* Header Masthead Content Text */
 
-header.masthead > div.masthead-content.container  .row:first-child > .masthead-content-text p{
-  font-size: .4rem;    
-}
-@media (min-width: 576px) { 
-/* .. */
-}
 @media (min-width: 768px) { 
-    header.masthead > div.masthead-content.container  .row:first-child > .masthead-content-text p{
-      font-size: .6rem;    
-    }
-}
-@media (min-width: 992px) { 
     header.masthead > div.masthead-content.container  .row:first-child > .masthead-content-text p{
       font-size: .8rem;    
     }
