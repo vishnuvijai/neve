@@ -1,13 +1,22 @@
 section.team > .team-container .row .team-cols .card  {
     position: relative;
     cursor: pointer;
+    z-index: 0;
 }
 section.team > .team-container .row .team-cols .card .curtain{
     position: absolute;
     background-color: rgba(5, 83, 201, 0);
     transition: background-color .5s;
+    z-index: 1;
 }
 section.team > .team-container .row .team-cols .card .curtain:hover{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+section.team > .container .row .team-cols > .card > .card-footer{
+    position: relative;
+    z-index: 3;
+    cursor: default;
 }
