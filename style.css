@@ -1,10 +1,10 @@
-@import "./css/header.css";
-@import "./css/margin.css";
-@import "./css/paddings.css";
-@import "./css/footer.css";
-@import "./css/link.css";
-@import "./css/nav.css";
-@import "./css/color.css";
+@import "./css/assets-css/header.css";
+@import "./css/assets-css/margin.css";
+@import "./css/assets-css/paddings.css";
+@import "./css/assets-css/footer.css";
+@import "./css/assets-css/link.css";
+@import "./css/assets-css/nav.css";
+@import "./css/assets-css/color.css";
 
 /* INDEX PAGE */
 @import "./css/indexcss/words-section.css";

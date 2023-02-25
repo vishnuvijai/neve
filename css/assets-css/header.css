@@ -10,25 +10,25 @@ header.masthead{
 }   
 @media (min-width: 576px) { 
   header.masthead{
-      background-image: url("../img/Background576Hero.png");
+      background-image: url("../../img/Background576Hero.png");
       height: 20rem;
   }   
 }
 @media (min-width: 768px) { 
   header.masthead{
-      background-image: url("../img/Background768Hero.png");
+      background-image: url("../../img/Background768Hero.png");
       height: 27rem;
   }   
 }
 @media (min-width: 992px) { 
   header.masthead{
-      background-image: url("../img/Background992Hero.png");
+      background-image: url("../../img/Background992Hero.png");
       height: 35rem;
   }   
 }
 @media (min-width: 1200px) { 
   header.masthead{
-      background-image: url("../img/Background Hero.png");
+      background-image: url("../../img/Background Hero.png");
       height: 40rem;
   }
 }
